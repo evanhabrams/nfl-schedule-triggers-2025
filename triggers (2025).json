@@ -1,0 +1,6199 @@
+{
+  "season": 2025,
+  "teams": {
+    "Cardinals": {
+      "abbr": "ARI",
+      "name": "Arizona Cardinals",
+      "color": "#97233F",
+      "color2": "#000000",
+      "conf": "NFC",
+      "div": "NFC West",
+      "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/ari.png",
+      "logoAlt": "https://cdn.jsdelivr.net/gh/nflverse/nflverse-pbp@master/squared_logos/ARI.png"
+    },
+    "Falcons": {
+      "abbr": "ATL",
+      "name": "Atlanta Falcons",
+      "color": "#A71930",
+      "color2": "#000000",
+      "conf": "NFC",
+      "div": "NFC South",
+      "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/atl.png",
+      "logoAlt": "https://cdn.jsdelivr.net/gh/nflverse/nflverse-pbp@master/squared_logos/ATL.png"
+    },
+    "Ravens": {
+      "abbr": "BAL",
+      "name": "Baltimore Ravens",
+      "color": "#241773",
+      "color2": "#9E7C0C",
+      "conf": "AFC",
+      "div": "AFC North",
+      "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/bal.png",
+      "logoAlt": "https://cdn.jsdelivr.net/gh/nflverse/nflverse-pbp@master/squared_logos/BAL.png"
+    },
+    "Bills": {
+      "abbr": "BUF",
+      "name": "Buffalo Bills",
+      "color": "#00338D",
+      "color2": "#C60C30",
+      "conf": "AFC",
+      "div": "AFC East",
+      "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/buf.png",
+      "logoAlt": "https://cdn.jsdelivr.net/gh/nflverse/nflverse-pbp@master/squared_logos/BUF.png"
+    },
+    "Panthers": {
+      "abbr": "CAR",
+      "name": "Carolina Panthers",
+      "color": "#0085CA",
+      "color2": "#000000",
+      "conf": "NFC",
+      "div": "NFC South",
+      "logo": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/car.png",
+      "logoAlt": "https://cdn.jsdelivr.net/gh/nflverse/nflverse-pbp@master/squared_logos/CAR.png"
+    },
+    "Bears": {
+      "abbr": "CHI",
+      "name": "Chicago Bears",
+      "color": "#0B162A",
+      "color2": "#E64100",
+      "conf": "NFC",
+      "div": "NFC North",
+      "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/chi.png",
+      "logoAlt": "https://cdn.jsdelivr.net/gh/nflverse/nflverse-pbp@master/squared_logos/CHI.png"
+    },
+    "Bengals": {
+      "abbr": "CIN",
+      "name": "Cincinnati Bengals",
+      "color": "#FB4F14",
+      "color2": "#000000",
+      "conf": "AFC",
+      "div": "AFC North",
+      "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/cin.png",
+      "logoAlt": "https://cdn.jsdelivr.net/gh/nflverse/nflverse-pbp@master/squared_logos/CIN.png"
+    },
+    "Browns": {
+      "abbr": "CLE",
+      "name": "Cleveland Browns",
+      "color": "#FF3C00",
+      "color2": "#311D00",
+      "conf": "AFC",
+      "div": "AFC North",
+      "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/cle.png",
+      "logoAlt": "https://cdn.jsdelivr.net/gh/nflverse/nflverse-pbp@master/squared_logos/CLE.png"
+    },
+    "Cowboys": {
+      "abbr": "DAL",
+      "name": "Dallas Cowboys",
+      "color": "#002244",
+      "color2": "#B0B7BC",
+      "conf": "NFC",
+      "div": "NFC East",
+      "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/dal.png",
+      "logoAlt": "https://cdn.jsdelivr.net/gh/nflverse/nflverse-pbp@master/squared_logos/DAL.png"
+    },
+    "Broncos": {
+      "abbr": "DEN",
+      "name": "Denver Broncos",
+      "color": "#002244",
+      "color2": "#FB4F14",
+      "conf": "AFC",
+      "div": "AFC West",
+      "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/den.png",
+      "logoAlt": "https://cdn.jsdelivr.net/gh/nflverse/nflverse-pbp@master/squared_logos/DEN.png"
+    },
+    "Lions": {
+      "abbr": "DET",
+      "name": "Detroit Lions",
+      "color": "#0076B6",
+      "color2": "#B0B7BC",
+      "conf": "NFC",
+      "div": "NFC North",
+      "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/det.png",
+      "logoAlt": "https://cdn.jsdelivr.net/gh/nflverse/nflverse-pbp@master/squared_logos/DET.png"
+    },
+    "Packers": {
+      "abbr": "GB",
+      "name": "Green Bay Packers",
+      "color": "#203731",
+      "color2": "#FFB612",
+      "conf": "NFC",
+      "div": "NFC North",
+      "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/gb.png",
+      "logoAlt": "https://cdn.jsdelivr.net/gh/nflverse/nflverse-pbp@master/squared_logos/GB.png"
+    },
+    "Texans": {
+      "abbr": "HOU",
+      "name": "Houston Texans",
+      "color": "#03202F",
+      "color2": "#A71930",
+      "conf": "AFC",
+      "div": "AFC South",
+      "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/hou.png",
+      "logoAlt": "https://cdn.jsdelivr.net/gh/nflverse/nflverse-pbp@master/squared_logos/HOU.png"
+    },
+    "Colts": {
+      "abbr": "IND",
+      "name": "Indianapolis Colts",
+      "color": "#002C5F",
+      "color2": "#a5acaf",
+      "conf": "AFC",
+      "div": "AFC South",
+      "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/ind.png",
+      "logoAlt": "https://cdn.jsdelivr.net/gh/nflverse/nflverse-pbp@master/squared_logos/IND.png"
+    },
+    "Jaguars": {
+      "abbr": "JAX",
+      "name": "Jacksonville Jaguars",
+      "color": "#006778",
+      "color2": "#000000",
+      "conf": "AFC",
+      "div": "AFC South",
+      "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/jax.png",
+      "logoAlt": "https://cdn.jsdelivr.net/gh/nflverse/nflverse-pbp@master/squared_logos/JAX.png"
+    },
+    "Chiefs": {
+      "abbr": "KC",
+      "name": "Kansas City Chiefs",
+      "color": "#E31837",
+      "color2": "#FFB612",
+      "conf": "AFC",
+      "div": "AFC West",
+      "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/kc.png",
+      "logoAlt": "https://cdn.jsdelivr.net/gh/nflverse/nflverse-pbp@master/squared_logos/KC.png"
+    },
+    "Chargers": {
+      "abbr": "LAC",
+      "name": "Los Angeles Chargers",
+      "color": "#007BC7",
+      "color2": "#ffc20e",
+      "conf": "AFC",
+      "div": "AFC West",
+      "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/lac.png",
+      "logoAlt": "https://cdn.jsdelivr.net/gh/nflverse/nflverse-pbp@master/squared_logos/LAC.png"
+    },
+    "Rams": {
+      "abbr": "LAR",
+      "name": "Los Angeles Rams",
+      "color": "#003594",
+      "color2": "#FFD100",
+      "conf": "NFC",
+      "div": "NFC West",
+      "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/lar.png",
+      "logoAlt": "https://cdn.jsdelivr.net/gh/nflverse/nflverse-pbp@master/squared_logos/LAR.png"
+    },
+    "Raiders": {
+      "abbr": "LV",
+      "name": "Las Vegas Raiders",
+      "color": "#000000",
+      "color2": "#A5ACAF",
+      "conf": "AFC",
+      "div": "AFC West",
+      "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/lv.png",
+      "logoAlt": "https://cdn.jsdelivr.net/gh/nflverse/nflverse-pbp@master/squared_logos/LV.png"
+    },
+    "Dolphins": {
+      "abbr": "MIA",
+      "name": "Miami Dolphins",
+      "color": "#008E97",
+      "color2": "#F58220",
+      "conf": "AFC",
+      "div": "AFC East",
+      "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/mia.png",
+      "logoAlt": "https://cdn.jsdelivr.net/gh/nflverse/nflverse-pbp@master/squared_logos/MIA.png"
+    },
+    "Vikings": {
+      "abbr": "MIN",
+      "name": "Minnesota Vikings",
+      "color": "#4F2683",
+      "color2": "#FFC62F",
+      "conf": "NFC",
+      "div": "NFC North",
+      "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/min.png",
+      "logoAlt": "https://cdn.jsdelivr.net/gh/nflverse/nflverse-pbp@master/squared_logos/MIN.png"
+    },
+    "Patriots": {
+      "abbr": "NE",
+      "name": "New England Patriots",
+      "color": "#002244",
+      "color2": "#C60C30",
+      "conf": "AFC",
+      "div": "AFC East",
+      "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/ne.png",
+      "logoAlt": "https://cdn.jsdelivr.net/gh/nflverse/nflverse-pbp@master/squared_logos/NE.png"
+    },
+    "Saints": {
+      "abbr": "NO",
+      "name": "New Orleans Saints",
+      "color": "#D3BC8D",
+      "color2": "#000000",
+      "conf": "NFC",
+      "div": "NFC South",
+      "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/no.png",
+      "logoAlt": "https://cdn.jsdelivr.net/gh/nflverse/nflverse-pbp@master/squared_logos/NO.png"
+    },
+    "Giants": {
+      "abbr": "NYG",
+      "name": "New York Giants",
+      "color": "#0B2265",
+      "color2": "#A71930",
+      "conf": "NFC",
+      "div": "NFC East",
+      "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/nyg.png",
+      "logoAlt": "https://cdn.jsdelivr.net/gh/nflverse/nflverse-pbp@master/squared_logos/NYG.png"
+    },
+    "Jets": {
+      "abbr": "NYJ",
+      "name": "New York Jets",
+      "color": "#003F2D",
+      "color2": "#000000",
+      "conf": "AFC",
+      "div": "AFC East",
+      "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/nyj.png",
+      "logoAlt": "https://cdn.jsdelivr.net/gh/nflverse/nflverse-pbp@master/squared_logos/NYJ.png"
+    },
+    "Eagles": {
+      "abbr": "PHI",
+      "name": "Philadelphia Eagles",
+      "color": "#004C54",
+      "color2": "#A5ACAF",
+      "conf": "NFC",
+      "div": "NFC East",
+      "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/phi.png",
+      "logoAlt": "https://cdn.jsdelivr.net/gh/nflverse/nflverse-pbp@master/squared_logos/PHI.png"
+    },
+    "Steelers": {
+      "abbr": "PIT",
+      "name": "Pittsburgh Steelers",
+      "color": "#000000",
+      "color2": "#FFB612",
+      "conf": "AFC",
+      "div": "AFC North",
+      "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/pit.png",
+      "logoAlt": "https://cdn.jsdelivr.net/gh/nflverse/nflverse-pbp@master/squared_logos/PIT.png"
+    },
+    "Seahawks": {
+      "abbr": "SEA",
+      "name": "Seattle Seahawks",
+      "color": "#002244",
+      "color2": "#69be28",
+      "conf": "NFC",
+      "div": "NFC West",
+      "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/sea.png",
+      "logoAlt": "https://cdn.jsdelivr.net/gh/nflverse/nflverse-pbp@master/squared_logos/SEA.png"
+    },
+    "49ers": {
+      "abbr": "SF",
+      "name": "San Francisco 49ers",
+      "color": "#AA0000",
+      "color2": "#B3995D",
+      "conf": "NFC",
+      "div": "NFC West",
+      "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/sf.png",
+      "logoAlt": "https://cdn.jsdelivr.net/gh/nflverse/nflverse-pbp@master/squared_logos/SF.png"
+    },
+    "Buccaneers": {
+      "abbr": "TB",
+      "name": "Tampa Bay Buccaneers",
+      "color": "#A71930",
+      "color2": "#322F2B",
+      "conf": "NFC",
+      "div": "NFC South",
+      "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/tb.png",
+      "logoAlt": "https://cdn.jsdelivr.net/gh/nflverse/nflverse-pbp@master/squared_logos/TB.png"
+    },
+    "Titans": {
+      "abbr": "TEN",
+      "name": "Tennessee Titans",
+      "color": "#002244",
+      "color2": "#4B92DB",
+      "conf": "AFC",
+      "div": "AFC South",
+      "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/ten.png",
+      "logoAlt": "https://cdn.jsdelivr.net/gh/nflverse/nflverse-pbp@master/squared_logos/TEN.png"
+    },
+    "Commanders": {
+      "abbr": "WAS",
+      "name": "Washington Commanders",
+      "color": "#5A1414",
+      "color2": "#FFB612",
+      "conf": "NFC",
+      "div": "NFC East",
+      "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/wsh.png",
+      "logoAlt": "https://cdn.jsdelivr.net/gh/nflverse/nflverse-pbp@master/squared_logos/WAS.png"
+    }
+  },
+  "triggers": [
+    {
+      "code": "P1",
+      "label": "Rest +3",
+      "polarity": "P",
+      "desc": "Focal Days Rest - Opp Days Rest >= 3"
+    },
+    {
+      "code": "P2",
+      "label": "TZ +3",
+      "polarity": "P",
+      "desc": "|Opp Travel \u0394| - |Focal Travel \u0394| >= 3"
+    },
+    {
+      "code": "P3",
+      "label": "Open \u2192 Dome",
+      "polarity": "P",
+      "desc": "Focal prev game roof = Open AND this = Fixed/Retractable"
+    },
+    {
+      "code": "P4",
+      "label": "3+ Hm",
+      "polarity": "P",
+      "desc": "Focal's 3rd+ consecutive Home game (bye breaks streak)"
+    },
+    {
+      "code": "P5a",
+      "label": "Cold v Hot",
+      "polarity": "P",
+      "desc": "Focal home in Cold venue; opp Warm/Dome; Date >= Nov 15"
+    },
+    {
+      "code": "P5b",
+      "label": "Early Hot Host",
+      "polarity": "P",
+      "desc": "Focal = MIA/JAX/TB home vs Cold opp; Week 1-2"
+    },
+    {
+      "code": "P6",
+      "label": "Opp Off Intl",
+      "polarity": "P",
+      "desc": "Opp's prev game in GMT/CET/BRT (international)"
+    },
+    {
+      "code": "N1",
+      "label": "Rest -3",
+      "polarity": "N",
+      "desc": "Opp Days Rest - Focal Days Rest >= 3"
+    },
+    {
+      "code": "N2",
+      "label": "TZ -3",
+      "polarity": "N",
+      "desc": "|Focal Travel \u0394| - |Opp Travel \u0394| >= 3"
+    },
+    {
+      "code": "N3",
+      "label": "Dome \u2192 Open",
+      "polarity": "N",
+      "desc": "Focal prev = Fixed/Retractable AND this = Open"
+    },
+    {
+      "code": "N4",
+      "label": "3+ Rd",
+      "polarity": "N",
+      "desc": "Focal's 3rd+ consecutive Away+Neutral (bye breaks streak)"
+    },
+    {
+      "code": "N5",
+      "label": "Off Intl",
+      "polarity": "N",
+      "desc": "Focal's prev game in GMT/CET/BRT"
+    },
+    {
+      "code": "N6",
+      "label": "Off B2B Div",
+      "polarity": "N",
+      "desc": "Previous 2 games both vs division opponents (no bye)"
+    },
+    {
+      "code": "N7a",
+      "label": "Hot v Cold",
+      "polarity": "N",
+      "desc": "Focal away (Warm/Dome) at Cold venue; Date >= Nov 15"
+    },
+    {
+      "code": "N7b",
+      "label": "Early Hot Road",
+      "polarity": "N",
+      "desc": "Focal away (Cold) at MIA/JAX/TB; Week 1-2"
+    },
+    {
+      "code": "N7c",
+      "label": "@ DEN",
+      "polarity": "N",
+      "desc": "Focal away at Denver"
+    }
+  ],
+  "fires": {
+    "Cardinals": {
+      "totals": {
+        "pos": 4,
+        "neg": 6,
+        "net": -2,
+        "posGames": 4,
+        "negGames": 5
+      },
+      "byTrigger": {
+        "P2": {
+          "count": 1,
+          "games": [
+            {
+              "week": 2,
+              "date": "2025-09-14",
+              "opp": "Panthers",
+              "han": "H",
+              "triggers": [
+                "P2"
+              ],
+              "net": 1
+            }
+          ]
+        },
+        "P1": {
+          "count": 2,
+          "games": [
+            {
+              "week": 5,
+              "date": "2025-10-05",
+              "opp": "Titans",
+              "han": "H",
+              "triggers": [
+                "P1"
+              ],
+              "net": 1
+            },
+            {
+              "week": 9,
+              "date": "2025-11-03",
+              "opp": "Cowboys",
+              "han": "A",
+              "triggers": [
+                "P1"
+              ],
+              "net": 1
+            }
+          ]
+        },
+        "N2": {
+          "count": 1,
+          "games": [
+            {
+              "week": 6,
+              "date": "2025-10-12",
+              "opp": "Colts",
+              "han": "A",
+              "triggers": [
+                "N2"
+              ],
+              "net": -1
+            }
+          ]
+        },
+        "N3": {
+          "count": 2,
+          "games": [
+            {
+              "week": 10,
+              "date": "2025-11-09",
+              "opp": "Seahawks",
+              "han": "A",
+              "triggers": [
+                "N3"
+              ],
+              "net": -1
+            },
+            {
+              "week": 17,
+              "date": "2025-12-28",
+              "opp": "Bengals",
+              "han": "A",
+              "triggers": [
+                "N3",
+                "N7a"
+              ],
+              "net": -2
+            }
+          ]
+        },
+        "N6": {
+          "count": 1,
+          "games": [
+            {
+              "week": 12,
+              "date": "2025-11-23",
+              "opp": "Jaguars",
+              "han": "H",
+              "triggers": [
+                "N6"
+              ],
+              "net": -1
+            }
+          ]
+        },
+        "N1": {
+          "count": 1,
+          "games": [
+            {
+              "week": 16,
+              "date": "2025-12-21",
+              "opp": "Falcons",
+              "han": "H",
+              "triggers": [
+                "N1"
+              ],
+              "net": -1
+            }
+          ]
+        },
+        "N7a": {
+          "count": 1,
+          "games": [
+            {
+              "week": 17,
+              "date": "2025-12-28",
+              "opp": "Bengals",
+              "han": "A",
+              "triggers": [
+                "N3",
+                "N7a"
+              ],
+              "net": -2
+            }
+          ]
+        },
+        "P3": {
+          "count": 1,
+          "games": [
+            {
+              "week": 18,
+              "date": "2026-01-04",
+              "opp": "Rams",
+              "han": "A",
+              "triggers": [
+                "P3"
+              ],
+              "net": 1
+            }
+          ]
+        }
+      }
+    },
+    "Falcons": {
+      "totals": {
+        "pos": 5,
+        "neg": 10,
+        "net": -5,
+        "posGames": 4,
+        "negGames": 7
+      },
+      "byTrigger": {
+        "P1": {
+          "count": 2,
+          "games": [
+            {
+              "week": 6,
+              "date": "2025-10-13",
+              "opp": "Bills",
+              "han": "H",
+              "triggers": [
+                "P1"
+              ],
+              "net": 1
+            },
+            {
+              "week": 16,
+              "date": "2025-12-21",
+              "opp": "Cardinals",
+              "han": "A",
+              "triggers": [
+                "P1",
+                "P3"
+              ],
+              "net": 2
+            }
+          ]
+        },
+        "N2": {
+          "count": 1,
+          "games": [
+            {
+              "week": 7,
+              "date": "2025-10-19",
+              "opp": "49ers",
+              "han": "A",
+              "triggers": [
+                "N2",
+                "N3"
+              ],
+              "net": -2
+            }
+          ]
+        },
+        "N3": {
+          "count": 4,
+          "games": [
+            {
+              "week": 7,
+              "date": "2025-10-19",
+              "opp": "49ers",
+              "han": "A",
+              "triggers": [
+                "N2",
+                "N3"
+              ],
+              "net": -2
+            },
+            {
+              "week": 9,
+              "date": "2025-11-02",
+              "opp": "Patriots",
+              "han": "A",
+              "triggers": [
+                "N3"
+              ],
+              "net": -1
+            },
+            {
+              "week": 13,
+              "date": "2025-11-30",
+              "opp": "Jets",
+              "han": "A",
+              "triggers": [
+                "N3",
+                "N6",
+                "N7a"
+              ],
+              "net": -3
+            },
+            {
+              "week": 15,
+              "date": "2025-12-11",
+              "opp": "Buccaneers",
+              "han": "A",
+              "triggers": [
+                "N3"
+              ],
+              "net": -1
+            }
+          ]
+        },
+        "N5": {
+          "count": 1,
+          "games": [
+            {
+              "week": 11,
+              "date": "2025-11-16",
+              "opp": "Panthers",
+              "han": "H",
+              "triggers": [
+                "N5"
+              ],
+              "net": -1
+            }
+          ]
+        },
+        "N1": {
+          "count": 2,
+          "games": [
+            {
+              "week": 12,
+              "date": "2025-11-23",
+              "opp": "Saints",
+              "han": "A",
+              "triggers": [
+                "N1"
+              ],
+              "net": -1
+            },
+            {
+              "week": 17,
+              "date": "2025-12-29",
+              "opp": "Rams",
+              "han": "H",
+              "triggers": [
+                "P2",
+                "N1"
+              ],
+              "net": 0
+            }
+          ]
+        },
+        "N6": {
+          "count": 1,
+          "games": [
+            {
+              "week": 13,
+              "date": "2025-11-30",
+              "opp": "Jets",
+              "han": "A",
+              "triggers": [
+                "N3",
+                "N6",
+                "N7a"
+              ],
+              "net": -3
+            }
+          ]
+        },
+        "N7a": {
+          "count": 1,
+          "games": [
+            {
+              "week": 13,
+              "date": "2025-11-30",
+              "opp": "Jets",
+              "han": "A",
+              "triggers": [
+                "N3",
+                "N6",
+                "N7a"
+              ],
+              "net": -3
+            }
+          ]
+        },
+        "P2": {
+          "count": 2,
+          "games": [
+            {
+              "week": 14,
+              "date": "2025-12-07",
+              "opp": "Seahawks",
+              "han": "H",
+              "triggers": [
+                "P2"
+              ],
+              "net": 1
+            },
+            {
+              "week": 17,
+              "date": "2025-12-29",
+              "opp": "Rams",
+              "han": "H",
+              "triggers": [
+                "P2",
+                "N1"
+              ],
+              "net": 0
+            }
+          ]
+        },
+        "P3": {
+          "count": 1,
+          "games": [
+            {
+              "week": 16,
+              "date": "2025-12-21",
+              "opp": "Cardinals",
+              "han": "A",
+              "triggers": [
+                "P1",
+                "P3"
+              ],
+              "net": 2
+            }
+          ]
+        }
+      }
+    },
+    "Ravens": {
+      "totals": {
+        "pos": 6,
+        "neg": 6,
+        "net": 0,
+        "posGames": 4,
+        "negGames": 5
+      },
+      "byTrigger": {
+        "P2": {
+          "count": 1,
+          "games": [
+            {
+              "week": 6,
+              "date": "2025-10-12",
+              "opp": "Rams",
+              "han": "H",
+              "triggers": [
+                "P2",
+                "N1"
+              ],
+              "net": 0
+            }
+          ]
+        },
+        "N1": {
+          "count": 2,
+          "games": [
+            {
+              "week": 6,
+              "date": "2025-10-12",
+              "opp": "Rams",
+              "han": "H",
+              "triggers": [
+                "P2",
+                "N1"
+              ],
+              "net": 0
+            },
+            {
+              "week": 12,
+              "date": "2025-11-23",
+              "opp": "Jets",
+              "han": "H",
+              "triggers": [
+                "N1"
+              ],
+              "net": -1
+            }
+          ]
+        },
+        "P1": {
+          "count": 3,
+          "games": [
+            {
+              "week": 8,
+              "date": "2025-10-26",
+              "opp": "Bears",
+              "han": "H",
+              "triggers": [
+                "P1"
+              ],
+              "net": 1
+            },
+            {
+              "week": 10,
+              "date": "2025-11-09",
+              "opp": "Vikings",
+              "han": "A",
+              "triggers": [
+                "P1",
+                "P3"
+              ],
+              "net": 2
+            },
+            {
+              "week": 14,
+              "date": "2025-12-07",
+              "opp": "Steelers",
+              "han": "H",
+              "triggers": [
+                "P1",
+                "P4"
+              ],
+              "net": 2
+            }
+          ]
+        },
+        "P3": {
+          "count": 1,
+          "games": [
+            {
+              "week": 10,
+              "date": "2025-11-09",
+              "opp": "Vikings",
+              "han": "A",
+              "triggers": [
+                "P1",
+                "P3"
+              ],
+              "net": 2
+            }
+          ]
+        },
+        "N3": {
+          "count": 1,
+          "games": [
+            {
+              "week": 11,
+              "date": "2025-11-16",
+              "opp": "Browns",
+              "han": "A",
+              "triggers": [
+                "N3",
+                "N4"
+              ],
+              "net": -2
+            }
+          ]
+        },
+        "N4": {
+          "count": 1,
+          "games": [
+            {
+              "week": 11,
+              "date": "2025-11-16",
+              "opp": "Browns",
+              "han": "A",
+              "triggers": [
+                "N3",
+                "N4"
+              ],
+              "net": -2
+            }
+          ]
+        },
+        "P4": {
+          "count": 1,
+          "games": [
+            {
+              "week": 14,
+              "date": "2025-12-07",
+              "opp": "Steelers",
+              "han": "H",
+              "triggers": [
+                "P1",
+                "P4"
+              ],
+              "net": 2
+            }
+          ]
+        },
+        "N6": {
+          "count": 2,
+          "games": [
+            {
+              "week": 15,
+              "date": "2025-12-14",
+              "opp": "Bengals",
+              "han": "A",
+              "triggers": [
+                "N6"
+              ],
+              "net": -1
+            },
+            {
+              "week": 16,
+              "date": "2025-12-21",
+              "opp": "Patriots",
+              "han": "H",
+              "triggers": [
+                "N6"
+              ],
+              "net": -1
+            }
+          ]
+        }
+      }
+    },
+    "Bills": {
+      "totals": {
+        "pos": 6,
+        "neg": 6,
+        "net": 0,
+        "posGames": 6,
+        "negGames": 6
+      },
+      "byTrigger": {
+        "P1": {
+          "count": 3,
+          "games": [
+            {
+              "week": 4,
+              "date": "2025-09-28",
+              "opp": "Saints",
+              "han": "H",
+              "triggers": [
+                "P1",
+                "N6"
+              ],
+              "net": 0
+            },
+            {
+              "week": 8,
+              "date": "2025-10-26",
+              "opp": "Panthers",
+              "han": "A",
+              "triggers": [
+                "P1"
+              ],
+              "net": 1
+            },
+            {
+              "week": 13,
+              "date": "2025-11-30",
+              "opp": "Steelers",
+              "han": "A",
+              "triggers": [
+                "P1",
+                "N3"
+              ],
+              "net": 0
+            }
+          ]
+        },
+        "N6": {
+          "count": 1,
+          "games": [
+            {
+              "week": 4,
+              "date": "2025-09-28",
+              "opp": "Saints",
+              "han": "H",
+              "triggers": [
+                "P1",
+                "N6"
+              ],
+              "net": 0
+            }
+          ]
+        },
+        "P4": {
+          "count": 1,
+          "games": [
+            {
+              "week": 5,
+              "date": "2025-10-05",
+              "opp": "Patriots",
+              "han": "H",
+              "triggers": [
+                "P4"
+              ],
+              "net": 1
+            }
+          ]
+        },
+        "P3": {
+          "count": 1,
+          "games": [
+            {
+              "week": 6,
+              "date": "2025-10-13",
+              "opp": "Falcons",
+              "han": "A",
+              "triggers": [
+                "P3",
+                "N1"
+              ],
+              "net": 0
+            }
+          ]
+        },
+        "N1": {
+          "count": 4,
+          "games": [
+            {
+              "week": 6,
+              "date": "2025-10-13",
+              "opp": "Falcons",
+              "han": "A",
+              "triggers": [
+                "P3",
+                "N1"
+              ],
+              "net": 0
+            },
+            {
+              "week": 10,
+              "date": "2025-11-09",
+              "opp": "Dolphins",
+              "han": "A",
+              "triggers": [
+                "N1"
+              ],
+              "net": -1
+            },
+            {
+              "week": 14,
+              "date": "2025-12-07",
+              "opp": "Bengals",
+              "han": "H",
+              "triggers": [
+                "N1"
+              ],
+              "net": -1
+            },
+            {
+              "week": 15,
+              "date": "2025-12-14",
+              "opp": "Patriots",
+              "han": "A",
+              "triggers": [
+                "N1"
+              ],
+              "net": -1
+            }
+          ]
+        },
+        "P5a": {
+          "count": 1,
+          "games": [
+            {
+              "week": 11,
+              "date": "2025-11-16",
+              "opp": "Buccaneers",
+              "han": "H",
+              "triggers": [
+                "P5a"
+              ],
+              "net": 1
+            }
+          ]
+        },
+        "N3": {
+          "count": 1,
+          "games": [
+            {
+              "week": 13,
+              "date": "2025-11-30",
+              "opp": "Steelers",
+              "han": "A",
+              "triggers": [
+                "P1",
+                "N3"
+              ],
+              "net": 0
+            }
+          ]
+        }
+      }
+    },
+    "Panthers": {
+      "totals": {
+        "pos": 6,
+        "neg": 7,
+        "net": -1,
+        "posGames": 6,
+        "negGames": 5
+      },
+      "byTrigger": {
+        "P3": {
+          "count": 1,
+          "games": [
+            {
+              "week": 2,
+              "date": "2025-09-14",
+              "opp": "Cardinals",
+              "han": "A",
+              "triggers": [
+                "P3",
+                "N2"
+              ],
+              "net": 0
+            }
+          ]
+        },
+        "N2": {
+          "count": 2,
+          "games": [
+            {
+              "week": 2,
+              "date": "2025-09-14",
+              "opp": "Cardinals",
+              "han": "A",
+              "triggers": [
+                "P3",
+                "N2"
+              ],
+              "net": 0
+            },
+            {
+              "week": 12,
+              "date": "2025-11-24",
+              "opp": "49ers",
+              "han": "A",
+              "triggers": [
+                "N2"
+              ],
+              "net": -1
+            }
+          ]
+        },
+        "P6": {
+          "count": 2,
+          "games": [
+            {
+              "week": 7,
+              "date": "2025-10-19",
+              "opp": "Jets",
+              "han": "A",
+              "triggers": [
+                "P6"
+              ],
+              "net": 1
+            },
+            {
+              "week": 11,
+              "date": "2025-11-16",
+              "opp": "Falcons",
+              "han": "A",
+              "triggers": [
+                "P6"
+              ],
+              "net": 1
+            }
+          ]
+        },
+        "N1": {
+          "count": 3,
+          "games": [
+            {
+              "week": 8,
+              "date": "2025-10-26",
+              "opp": "Bills",
+              "han": "H",
+              "triggers": [
+                "N1"
+              ],
+              "net": -1
+            },
+            {
+              "week": 16,
+              "date": "2025-12-21",
+              "opp": "Buccaneers",
+              "han": "H",
+              "triggers": [
+                "N1",
+                "N3"
+              ],
+              "net": -2
+            },
+            {
+              "week": 17,
+              "date": "2025-12-28",
+              "opp": "Seahawks",
+              "han": "H",
+              "triggers": [
+                "P2",
+                "N1",
+                "N6"
+              ],
+              "net": -1
+            }
+          ]
+        },
+        "P2": {
+          "count": 2,
+          "games": [
+            {
+              "week": 13,
+              "date": "2025-11-30",
+              "opp": "Rams",
+              "han": "H",
+              "triggers": [
+                "P2"
+              ],
+              "net": 1
+            },
+            {
+              "week": 17,
+              "date": "2025-12-28",
+              "opp": "Seahawks",
+              "han": "H",
+              "triggers": [
+                "P2",
+                "N1",
+                "N6"
+              ],
+              "net": -1
+            }
+          ]
+        },
+        "P1": {
+          "count": 1,
+          "games": [
+            {
+              "week": 15,
+              "date": "2025-12-14",
+              "opp": "Saints",
+              "han": "A",
+              "triggers": [
+                "P1"
+              ],
+              "net": 1
+            }
+          ]
+        },
+        "N3": {
+          "count": 1,
+          "games": [
+            {
+              "week": 16,
+              "date": "2025-12-21",
+              "opp": "Buccaneers",
+              "han": "H",
+              "triggers": [
+                "N1",
+                "N3"
+              ],
+              "net": -2
+            }
+          ]
+        },
+        "N6": {
+          "count": 1,
+          "games": [
+            {
+              "week": 17,
+              "date": "2025-12-28",
+              "opp": "Seahawks",
+              "han": "H",
+              "triggers": [
+                "P2",
+                "N1",
+                "N6"
+              ],
+              "net": -1
+            }
+          ]
+        }
+      }
+    },
+    "Bears": {
+      "totals": {
+        "pos": 3,
+        "neg": 3,
+        "net": 0,
+        "posGames": 3,
+        "negGames": 3
+      },
+      "byTrigger": {
+        "P1": {
+          "count": 1,
+          "games": [
+            {
+              "week": 6,
+              "date": "2025-10-13",
+              "opp": "Commanders",
+              "han": "A",
+              "triggers": [
+                "P1"
+              ],
+              "net": 1
+            }
+          ]
+        },
+        "N1": {
+          "count": 2,
+          "games": [
+            {
+              "week": 8,
+              "date": "2025-10-26",
+              "opp": "Ravens",
+              "han": "A",
+              "triggers": [
+                "N1"
+              ],
+              "net": -1
+            },
+            {
+              "week": 18,
+              "date": "2026-01-04",
+              "opp": "Lions",
+              "han": "H",
+              "triggers": [
+                "P5a",
+                "N1"
+              ],
+              "net": 0
+            }
+          ]
+        },
+        "P3": {
+          "count": 1,
+          "games": [
+            {
+              "week": 11,
+              "date": "2025-11-16",
+              "opp": "Vikings",
+              "han": "A",
+              "triggers": [
+                "P3"
+              ],
+              "net": 1
+            }
+          ]
+        },
+        "N3": {
+          "count": 1,
+          "games": [
+            {
+              "week": 12,
+              "date": "2025-11-23",
+              "opp": "Steelers",
+              "han": "H",
+              "triggers": [
+                "N3"
+              ],
+              "net": -1
+            }
+          ]
+        },
+        "P5a": {
+          "count": 1,
+          "games": [
+            {
+              "week": 18,
+              "date": "2026-01-04",
+              "opp": "Lions",
+              "han": "H",
+              "triggers": [
+                "P5a",
+                "N1"
+              ],
+              "net": 0
+            }
+          ]
+        }
+      }
+    },
+    "Bengals": {
+      "totals": {
+        "pos": 6,
+        "neg": 3,
+        "net": 3,
+        "posGames": 6,
+        "negGames": 3
+      },
+      "byTrigger": {
+        "P3": {
+          "count": 1,
+          "games": [
+            {
+              "week": 3,
+              "date": "2025-09-21",
+              "opp": "Vikings",
+              "han": "A",
+              "triggers": [
+                "P3"
+              ],
+              "net": 1
+            }
+          ]
+        },
+        "N7c": {
+          "count": 1,
+          "games": [
+            {
+              "week": 4,
+              "date": "2025-09-29",
+              "opp": "Broncos",
+              "han": "A",
+              "triggers": [
+                "N7c"
+              ],
+              "net": -1
+            }
+          ]
+        },
+        "N1": {
+          "count": 2,
+          "games": [
+            {
+              "week": 6,
+              "date": "2025-10-12",
+              "opp": "Packers",
+              "han": "A",
+              "triggers": [
+                "N1"
+              ],
+              "net": -1
+            },
+            {
+              "week": 12,
+              "date": "2025-11-23",
+              "opp": "Patriots",
+              "han": "H",
+              "triggers": [
+                "N1"
+              ],
+              "net": -1
+            }
+          ]
+        },
+        "P1": {
+          "count": 3,
+          "games": [
+            {
+              "week": 8,
+              "date": "2025-10-26",
+              "opp": "Jets",
+              "han": "H",
+              "triggers": [
+                "P1"
+              ],
+              "net": 1
+            },
+            {
+              "week": 11,
+              "date": "2025-11-16",
+              "opp": "Steelers",
+              "han": "A",
+              "triggers": [
+                "P1"
+              ],
+              "net": 1
+            },
+            {
+              "week": 14,
+              "date": "2025-12-07",
+              "opp": "Bills",
+              "han": "A",
+              "triggers": [
+                "P1"
+              ],
+              "net": 1
+            }
+          ]
+        },
+        "P4": {
+          "count": 1,
+          "games": [
+            {
+              "week": 9,
+              "date": "2025-11-02",
+              "opp": "Bears",
+              "han": "H",
+              "triggers": [
+                "P4"
+              ],
+              "net": 1
+            }
+          ]
+        },
+        "P5a": {
+          "count": 1,
+          "games": [
+            {
+              "week": 17,
+              "date": "2025-12-28",
+              "opp": "Cardinals",
+              "han": "H",
+              "triggers": [
+                "P5a"
+              ],
+              "net": 1
+            }
+          ]
+        }
+      }
+    },
+    "Browns": {
+      "totals": {
+        "pos": 3,
+        "neg": 8,
+        "net": -5,
+        "posGames": 3,
+        "negGames": 5
+      },
+      "byTrigger": {
+        "N1": {
+          "count": 2,
+          "games": [
+            {
+              "week": 3,
+              "date": "2025-09-21",
+              "opp": "Packers",
+              "han": "H",
+              "triggers": [
+                "N1",
+                "N6"
+              ],
+              "net": -2
+            },
+            {
+              "week": 6,
+              "date": "2025-10-12",
+              "opp": "Steelers",
+              "han": "A",
+              "triggers": [
+                "N1",
+                "N4",
+                "N5"
+              ],
+              "net": -3
+            }
+          ]
+        },
+        "N6": {
+          "count": 1,
+          "games": [
+            {
+              "week": 3,
+              "date": "2025-09-21",
+              "opp": "Packers",
+              "han": "H",
+              "triggers": [
+                "N1",
+                "N6"
+              ],
+              "net": -2
+            }
+          ]
+        },
+        "P6": {
+          "count": 1,
+          "games": [
+            {
+              "week": 5,
+              "date": "2025-10-05",
+              "opp": "Vikings",
+              "han": "N",
+              "triggers": [
+                "P6",
+                "N3"
+              ],
+              "net": 0
+            }
+          ]
+        },
+        "N3": {
+          "count": 2,
+          "games": [
+            {
+              "week": 5,
+              "date": "2025-10-05",
+              "opp": "Vikings",
+              "han": "N",
+              "triggers": [
+                "P6",
+                "N3"
+              ],
+              "net": 0
+            },
+            {
+              "week": 13,
+              "date": "2025-11-30",
+              "opp": "49ers",
+              "han": "H",
+              "triggers": [
+                "P2",
+                "N3"
+              ],
+              "net": 0
+            }
+          ]
+        },
+        "N4": {
+          "count": 1,
+          "games": [
+            {
+              "week": 6,
+              "date": "2025-10-12",
+              "opp": "Steelers",
+              "han": "A",
+              "triggers": [
+                "N1",
+                "N4",
+                "N5"
+              ],
+              "net": -3
+            }
+          ]
+        },
+        "N5": {
+          "count": 1,
+          "games": [
+            {
+              "week": 6,
+              "date": "2025-10-12",
+              "opp": "Steelers",
+              "han": "A",
+              "triggers": [
+                "N1",
+                "N4",
+                "N5"
+              ],
+              "net": -3
+            }
+          ]
+        },
+        "P3": {
+          "count": 1,
+          "games": [
+            {
+              "week": 12,
+              "date": "2025-11-23",
+              "opp": "Raiders",
+              "han": "A",
+              "triggers": [
+                "P3",
+                "N2"
+              ],
+              "net": 0
+            }
+          ]
+        },
+        "N2": {
+          "count": 1,
+          "games": [
+            {
+              "week": 12,
+              "date": "2025-11-23",
+              "opp": "Raiders",
+              "han": "A",
+              "triggers": [
+                "P3",
+                "N2"
+              ],
+              "net": 0
+            }
+          ]
+        },
+        "P2": {
+          "count": 1,
+          "games": [
+            {
+              "week": 13,
+              "date": "2025-11-30",
+              "opp": "49ers",
+              "han": "H",
+              "triggers": [
+                "P2",
+                "N3"
+              ],
+              "net": 0
+            }
+          ]
+        }
+      }
+    },
+    "Cowboys": {
+      "totals": {
+        "pos": 5,
+        "neg": 6,
+        "net": -1,
+        "posGames": 5,
+        "negGames": 5
+      },
+      "byTrigger": {
+        "P1": {
+          "count": 4,
+          "games": [
+            {
+              "week": 2,
+              "date": "2025-09-14",
+              "opp": "Giants",
+              "han": "H",
+              "triggers": [
+                "P1"
+              ],
+              "net": 1
+            },
+            {
+              "week": 11,
+              "date": "2025-11-17",
+              "opp": "Raiders",
+              "han": "A",
+              "triggers": [
+                "P1"
+              ],
+              "net": 1
+            },
+            {
+              "week": 15,
+              "date": "2025-12-14",
+              "opp": "Vikings",
+              "han": "H",
+              "triggers": [
+                "P1"
+              ],
+              "net": 1
+            },
+            {
+              "week": 18,
+              "date": "2026-01-04",
+              "opp": "Giants",
+              "han": "A",
+              "triggers": [
+                "P1",
+                "N7a"
+              ],
+              "net": 0
+            }
+          ]
+        },
+        "N3": {
+          "count": 3,
+          "games": [
+            {
+              "week": 5,
+              "date": "2025-10-05",
+              "opp": "Jets",
+              "han": "A",
+              "triggers": [
+                "N3"
+              ],
+              "net": -1
+            },
+            {
+              "week": 8,
+              "date": "2025-10-26",
+              "opp": "Broncos",
+              "han": "A",
+              "triggers": [
+                "N3",
+                "N7c"
+              ],
+              "net": -2
+            },
+            {
+              "week": 17,
+              "date": "2025-12-25",
+              "opp": "Commanders",
+              "han": "A",
+              "triggers": [
+                "N3"
+              ],
+              "net": -1
+            }
+          ]
+        },
+        "N7c": {
+          "count": 1,
+          "games": [
+            {
+              "week": 8,
+              "date": "2025-10-26",
+              "opp": "Broncos",
+              "han": "A",
+              "triggers": [
+                "N3",
+                "N7c"
+              ],
+              "net": -2
+            }
+          ]
+        },
+        "P3": {
+          "count": 1,
+          "games": [
+            {
+              "week": 9,
+              "date": "2025-11-03",
+              "opp": "Cardinals",
+              "han": "H",
+              "triggers": [
+                "P3",
+                "N1"
+              ],
+              "net": 0
+            }
+          ]
+        },
+        "N1": {
+          "count": 1,
+          "games": [
+            {
+              "week": 9,
+              "date": "2025-11-03",
+              "opp": "Cardinals",
+              "han": "H",
+              "triggers": [
+                "P3",
+                "N1"
+              ],
+              "net": 0
+            }
+          ]
+        },
+        "N7a": {
+          "count": 1,
+          "games": [
+            {
+              "week": 18,
+              "date": "2026-01-04",
+              "opp": "Giants",
+              "han": "A",
+              "triggers": [
+                "P1",
+                "N7a"
+              ],
+              "net": 0
+            }
+          ]
+        }
+      }
+    },
+    "Broncos": {
+      "totals": {
+        "pos": 5,
+        "neg": 4,
+        "net": 1,
+        "posGames": 5,
+        "negGames": 3
+      },
+      "byTrigger": {
+        "P3": {
+          "count": 3,
+          "games": [
+            {
+              "week": 2,
+              "date": "2025-09-14",
+              "opp": "Colts",
+              "han": "A",
+              "triggers": [
+                "P3"
+              ],
+              "net": 1
+            },
+            {
+              "week": 9,
+              "date": "2025-11-02",
+              "opp": "Texans",
+              "han": "A",
+              "triggers": [
+                "P3"
+              ],
+              "net": 1
+            },
+            {
+              "week": 14,
+              "date": "2025-12-07",
+              "opp": "Raiders",
+              "han": "A",
+              "triggers": [
+                "P3"
+              ],
+              "net": 1
+            }
+          ]
+        },
+        "N1": {
+          "count": 2,
+          "games": [
+            {
+              "week": 7,
+              "date": "2025-10-19",
+              "opp": "Giants",
+              "han": "H",
+              "triggers": [
+                "N1",
+                "N5"
+              ],
+              "net": -2
+            },
+            {
+              "week": 11,
+              "date": "2025-11-16",
+              "opp": "Chiefs",
+              "han": "H",
+              "triggers": [
+                "N1"
+              ],
+              "net": -1
+            }
+          ]
+        },
+        "N5": {
+          "count": 1,
+          "games": [
+            {
+              "week": 7,
+              "date": "2025-10-19",
+              "opp": "Giants",
+              "han": "H",
+              "triggers": [
+                "N1",
+                "N5"
+              ],
+              "net": -2
+            }
+          ]
+        },
+        "N3": {
+          "count": 1,
+          "games": [
+            {
+              "week": 15,
+              "date": "2025-12-14",
+              "opp": "Packers",
+              "han": "H",
+              "triggers": [
+                "N3"
+              ],
+              "net": -1
+            }
+          ]
+        },
+        "P5a": {
+          "count": 2,
+          "games": [
+            {
+              "week": 16,
+              "date": "2025-12-21",
+              "opp": "Jaguars",
+              "han": "H",
+              "triggers": [
+                "P5a"
+              ],
+              "net": 1
+            },
+            {
+              "week": 18,
+              "date": "2026-01-04",
+              "opp": "Chargers",
+              "han": "H",
+              "triggers": [
+                "P5a"
+              ],
+              "net": 1
+            }
+          ]
+        }
+      }
+    },
+    "Lions": {
+      "totals": {
+        "pos": 4,
+        "neg": 8,
+        "net": -4,
+        "posGames": 4,
+        "negGames": 6
+      },
+      "byTrigger": {
+        "N3": {
+          "count": 4,
+          "games": [
+            {
+              "week": 3,
+              "date": "2025-09-22",
+              "opp": "Ravens",
+              "han": "A",
+              "triggers": [
+                "N3",
+                "N6"
+              ],
+              "net": -2
+            },
+            {
+              "week": 5,
+              "date": "2025-10-05",
+              "opp": "Bengals",
+              "han": "A",
+              "triggers": [
+                "N3"
+              ],
+              "net": -1
+            },
+            {
+              "week": 10,
+              "date": "2025-11-09",
+              "opp": "Commanders",
+              "han": "A",
+              "triggers": [
+                "N3"
+              ],
+              "net": -1
+            },
+            {
+              "week": 18,
+              "date": "2026-01-04",
+              "opp": "Bears",
+              "han": "A",
+              "triggers": [
+                "P1",
+                "N3",
+                "N7a"
+              ],
+              "net": -1
+            }
+          ]
+        },
+        "N6": {
+          "count": 1,
+          "games": [
+            {
+              "week": 3,
+              "date": "2025-09-22",
+              "opp": "Ravens",
+              "han": "A",
+              "triggers": [
+                "N3",
+                "N6"
+              ],
+              "net": -2
+            }
+          ]
+        },
+        "P1": {
+          "count": 3,
+          "games": [
+            {
+              "week": 9,
+              "date": "2025-11-02",
+              "opp": "Vikings",
+              "han": "H",
+              "triggers": [
+                "P1"
+              ],
+              "net": 1
+            },
+            {
+              "week": 15,
+              "date": "2025-12-14",
+              "opp": "Rams",
+              "han": "A",
+              "triggers": [
+                "P1",
+                "N2"
+              ],
+              "net": 0
+            },
+            {
+              "week": 18,
+              "date": "2026-01-04",
+              "opp": "Bears",
+              "han": "A",
+              "triggers": [
+                "P1",
+                "N3",
+                "N7a"
+              ],
+              "net": -1
+            }
+          ]
+        },
+        "N7a": {
+          "count": 2,
+          "games": [
+            {
+              "week": 11,
+              "date": "2025-11-16",
+              "opp": "Eagles",
+              "han": "A",
+              "triggers": [
+                "N7a"
+              ],
+              "net": -1
+            },
+            {
+              "week": 18,
+              "date": "2026-01-04",
+              "opp": "Bears",
+              "han": "A",
+              "triggers": [
+                "P1",
+                "N3",
+                "N7a"
+              ],
+              "net": -1
+            }
+          ]
+        },
+        "P4": {
+          "count": 1,
+          "games": [
+            {
+              "week": 14,
+              "date": "2025-12-04",
+              "opp": "Cowboys",
+              "han": "H",
+              "triggers": [
+                "P4"
+              ],
+              "net": 1
+            }
+          ]
+        },
+        "N2": {
+          "count": 1,
+          "games": [
+            {
+              "week": 15,
+              "date": "2025-12-14",
+              "opp": "Rams",
+              "han": "A",
+              "triggers": [
+                "P1",
+                "N2"
+              ],
+              "net": 0
+            }
+          ]
+        }
+      }
+    },
+    "Packers": {
+      "totals": {
+        "pos": 6,
+        "neg": 7,
+        "net": -1,
+        "posGames": 6,
+        "negGames": 4
+      },
+      "byTrigger": {
+        "P1": {
+          "count": 2,
+          "games": [
+            {
+              "week": 3,
+              "date": "2025-09-21",
+              "opp": "Browns",
+              "han": "A",
+              "triggers": [
+                "P1"
+              ],
+              "net": 1
+            },
+            {
+              "week": 6,
+              "date": "2025-10-12",
+              "opp": "Bengals",
+              "han": "H",
+              "triggers": [
+                "P1"
+              ],
+              "net": 1
+            }
+          ]
+        },
+        "P3": {
+          "count": 3,
+          "games": [
+            {
+              "week": 7,
+              "date": "2025-10-19",
+              "opp": "Cardinals",
+              "han": "A",
+              "triggers": [
+                "P3"
+              ],
+              "net": 1
+            },
+            {
+              "week": 13,
+              "date": "2025-11-27",
+              "opp": "Lions",
+              "han": "A",
+              "triggers": [
+                "P3"
+              ],
+              "net": 1
+            },
+            {
+              "week": 18,
+              "date": "2026-01-04",
+              "opp": "Vikings",
+              "han": "A",
+              "triggers": [
+                "P3"
+              ],
+              "net": 1
+            }
+          ]
+        },
+        "N1": {
+          "count": 2,
+          "games": [
+            {
+              "week": 8,
+              "date": "2025-10-26",
+              "opp": "Steelers",
+              "han": "A",
+              "triggers": [
+                "N1",
+                "N3"
+              ],
+              "net": -2
+            },
+            {
+              "week": 10,
+              "date": "2025-11-10",
+              "opp": "Eagles",
+              "han": "H",
+              "triggers": [
+                "N1"
+              ],
+              "net": -1
+            }
+          ]
+        },
+        "N3": {
+          "count": 2,
+          "games": [
+            {
+              "week": 8,
+              "date": "2025-10-26",
+              "opp": "Steelers",
+              "han": "A",
+              "triggers": [
+                "N1",
+                "N3"
+              ],
+              "net": -2
+            },
+            {
+              "week": 14,
+              "date": "2025-12-07",
+              "opp": "Bears",
+              "han": "H",
+              "triggers": [
+                "N3",
+                "N6"
+              ],
+              "net": -2
+            }
+          ]
+        },
+        "P5a": {
+          "count": 1,
+          "games": [
+            {
+              "week": 12,
+              "date": "2025-11-23",
+              "opp": "Vikings",
+              "han": "H",
+              "triggers": [
+                "P5a"
+              ],
+              "net": 1
+            }
+          ]
+        },
+        "N6": {
+          "count": 2,
+          "games": [
+            {
+              "week": 14,
+              "date": "2025-12-07",
+              "opp": "Bears",
+              "han": "H",
+              "triggers": [
+                "N3",
+                "N6"
+              ],
+              "net": -2
+            },
+            {
+              "week": 15,
+              "date": "2025-12-14",
+              "opp": "Broncos",
+              "han": "A",
+              "triggers": [
+                "N6",
+                "N7c"
+              ],
+              "net": -2
+            }
+          ]
+        },
+        "N7c": {
+          "count": 1,
+          "games": [
+            {
+              "week": 15,
+              "date": "2025-12-14",
+              "opp": "Broncos",
+              "han": "A",
+              "triggers": [
+                "N6",
+                "N7c"
+              ],
+              "net": -2
+            }
+          ]
+        }
+      }
+    },
+    "Texans": {
+      "totals": {
+        "pos": 4,
+        "neg": 8,
+        "net": -4,
+        "posGames": 4,
+        "negGames": 5
+      },
+      "byTrigger": {
+        "N3": {
+          "count": 3,
+          "games": [
+            {
+              "week": 3,
+              "date": "2025-09-21",
+              "opp": "Jaguars",
+              "han": "A",
+              "triggers": [
+                "N3"
+              ],
+              "net": -1
+            },
+            {
+              "week": 5,
+              "date": "2025-10-05",
+              "opp": "Ravens",
+              "han": "A",
+              "triggers": [
+                "N3",
+                "N6"
+              ],
+              "net": -2
+            },
+            {
+              "week": 11,
+              "date": "2025-11-16",
+              "opp": "Titans",
+              "han": "A",
+              "triggers": [
+                "N1",
+                "N3"
+              ],
+              "net": -2
+            }
+          ]
+        },
+        "N6": {
+          "count": 2,
+          "games": [
+            {
+              "week": 5,
+              "date": "2025-10-05",
+              "opp": "Ravens",
+              "han": "A",
+              "triggers": [
+                "N3",
+                "N6"
+              ],
+              "net": -2
+            },
+            {
+              "week": 12,
+              "date": "2025-11-20",
+              "opp": "Bills",
+              "han": "H",
+              "triggers": [
+                "N6"
+              ],
+              "net": -1
+            }
+          ]
+        },
+        "P1": {
+          "count": 2,
+          "games": [
+            {
+              "week": 7,
+              "date": "2025-10-20",
+              "opp": "Seahawks",
+              "han": "A",
+              "triggers": [
+                "P1"
+              ],
+              "net": 1
+            },
+            {
+              "week": 13,
+              "date": "2025-11-30",
+              "opp": "Colts",
+              "han": "A",
+              "triggers": [
+                "P1"
+              ],
+              "net": 1
+            }
+          ]
+        },
+        "P4": {
+          "count": 1,
+          "games": [
+            {
+              "week": 10,
+              "date": "2025-11-09",
+              "opp": "Jaguars",
+              "han": "H",
+              "triggers": [
+                "P4"
+              ],
+              "net": 1
+            }
+          ]
+        },
+        "N1": {
+          "count": 2,
+          "games": [
+            {
+              "week": 11,
+              "date": "2025-11-16",
+              "opp": "Titans",
+              "han": "A",
+              "triggers": [
+                "N1",
+                "N3"
+              ],
+              "net": -2
+            },
+            {
+              "week": 14,
+              "date": "2025-12-07",
+              "opp": "Chiefs",
+              "han": "A",
+              "triggers": [
+                "N1",
+                "N7a"
+              ],
+              "net": -2
+            }
+          ]
+        },
+        "N7a": {
+          "count": 1,
+          "games": [
+            {
+              "week": 14,
+              "date": "2025-12-07",
+              "opp": "Chiefs",
+              "han": "A",
+              "triggers": [
+                "N1",
+                "N7a"
+              ],
+              "net": -2
+            }
+          ]
+        },
+        "P3": {
+          "count": 1,
+          "games": [
+            {
+              "week": 15,
+              "date": "2025-12-14",
+              "opp": "Cardinals",
+              "han": "H",
+              "triggers": [
+                "P3"
+              ],
+              "net": 1
+            }
+          ]
+        }
+      }
+    },
+    "Colts": {
+      "totals": {
+        "pos": 5,
+        "neg": 9,
+        "net": -4,
+        "posGames": 5,
+        "negGames": 8
+      },
+      "byTrigger": {
+        "N3": {
+          "count": 3,
+          "games": [
+            {
+              "week": 3,
+              "date": "2025-09-21",
+              "opp": "Titans",
+              "han": "A",
+              "triggers": [
+                "N3"
+              ],
+              "net": -1
+            },
+            {
+              "week": 9,
+              "date": "2025-11-02",
+              "opp": "Steelers",
+              "han": "A",
+              "triggers": [
+                "N3"
+              ],
+              "net": -1
+            },
+            {
+              "week": 14,
+              "date": "2025-12-07",
+              "opp": "Jaguars",
+              "han": "A",
+              "triggers": [
+                "N3"
+              ],
+              "net": -1
+            }
+          ]
+        },
+        "N2": {
+          "count": 3,
+          "games": [
+            {
+              "week": 4,
+              "date": "2025-09-28",
+              "opp": "Rams",
+              "han": "A",
+              "triggers": [
+                "N2"
+              ],
+              "net": -1
+            },
+            {
+              "week": 7,
+              "date": "2025-10-19",
+              "opp": "Chargers",
+              "han": "A",
+              "triggers": [
+                "N2"
+              ],
+              "net": -1
+            },
+            {
+              "week": 15,
+              "date": "2025-12-14",
+              "opp": "Seahawks",
+              "han": "A",
+              "triggers": [
+                "N2",
+                "N6"
+              ],
+              "net": -2
+            }
+          ]
+        },
+        "P2": {
+          "count": 3,
+          "games": [
+            {
+              "week": 5,
+              "date": "2025-10-05",
+              "opp": "Raiders",
+              "han": "H",
+              "triggers": [
+                "P2"
+              ],
+              "net": 1
+            },
+            {
+              "week": 6,
+              "date": "2025-10-12",
+              "opp": "Cardinals",
+              "han": "H",
+              "triggers": [
+                "P2"
+              ],
+              "net": 1
+            },
+            {
+              "week": 16,
+              "date": "2025-12-22",
+              "opp": "49ers",
+              "han": "H",
+              "triggers": [
+                "P2"
+              ],
+              "net": 1
+            }
+          ]
+        },
+        "P1": {
+          "count": 1,
+          "games": [
+            {
+              "week": 12,
+              "date": "2025-11-23",
+              "opp": "Chiefs",
+              "han": "A",
+              "triggers": [
+                "P1",
+                "N7a"
+              ],
+              "net": 0
+            }
+          ]
+        },
+        "N7a": {
+          "count": 1,
+          "games": [
+            {
+              "week": 12,
+              "date": "2025-11-23",
+              "opp": "Chiefs",
+              "han": "A",
+              "triggers": [
+                "P1",
+                "N7a"
+              ],
+              "net": 0
+            }
+          ]
+        },
+        "P3": {
+          "count": 1,
+          "games": [
+            {
+              "week": 13,
+              "date": "2025-11-30",
+              "opp": "Texans",
+              "han": "H",
+              "triggers": [
+                "P3",
+                "N1"
+              ],
+              "net": 0
+            }
+          ]
+        },
+        "N1": {
+          "count": 1,
+          "games": [
+            {
+              "week": 13,
+              "date": "2025-11-30",
+              "opp": "Texans",
+              "han": "H",
+              "triggers": [
+                "P3",
+                "N1"
+              ],
+              "net": 0
+            }
+          ]
+        },
+        "N6": {
+          "count": 1,
+          "games": [
+            {
+              "week": 15,
+              "date": "2025-12-14",
+              "opp": "Seahawks",
+              "han": "A",
+              "triggers": [
+                "N2",
+                "N6"
+              ],
+              "net": -2
+            }
+          ]
+        }
+      }
+    },
+    "Jaguars": {
+      "totals": {
+        "pos": 5,
+        "neg": 7,
+        "net": -2,
+        "posGames": 5,
+        "negGames": 6
+      },
+      "byTrigger": {
+        "N2": {
+          "count": 2,
+          "games": [
+            {
+              "week": 4,
+              "date": "2025-09-28",
+              "opp": "49ers",
+              "han": "A",
+              "triggers": [
+                "N2"
+              ],
+              "net": -1
+            },
+            {
+              "week": 9,
+              "date": "2025-11-02",
+              "opp": "Raiders",
+              "han": "A",
+              "triggers": [
+                "N2"
+              ],
+              "net": -1
+            }
+          ]
+        },
+        "P2": {
+          "count": 3,
+          "games": [
+            {
+              "week": 6,
+              "date": "2025-10-12",
+              "opp": "Seahawks",
+              "han": "H",
+              "triggers": [
+                "P2"
+              ],
+              "net": 1
+            },
+            {
+              "week": 7,
+              "date": "2025-10-19",
+              "opp": "Rams",
+              "han": "N",
+              "triggers": [
+                "P2"
+              ],
+              "net": 1
+            },
+            {
+              "week": 11,
+              "date": "2025-11-16",
+              "opp": "Chargers",
+              "han": "H",
+              "triggers": [
+                "P2"
+              ],
+              "net": 1
+            }
+          ]
+        },
+        "P3": {
+          "count": 2,
+          "games": [
+            {
+              "week": 12,
+              "date": "2025-11-23",
+              "opp": "Cardinals",
+              "han": "A",
+              "triggers": [
+                "P3"
+              ],
+              "net": 1
+            },
+            {
+              "week": 17,
+              "date": "2025-12-28",
+              "opp": "Colts",
+              "han": "A",
+              "triggers": [
+                "P3"
+              ],
+              "net": 1
+            }
+          ]
+        },
+        "N3": {
+          "count": 2,
+          "games": [
+            {
+              "week": 13,
+              "date": "2025-11-30",
+              "opp": "Titans",
+              "han": "A",
+              "triggers": [
+                "N3"
+              ],
+              "net": -1
+            },
+            {
+              "week": 18,
+              "date": "2026-01-04",
+              "opp": "Titans",
+              "han": "H",
+              "triggers": [
+                "N3"
+              ],
+              "net": -1
+            }
+          ]
+        },
+        "N6": {
+          "count": 1,
+          "games": [
+            {
+              "week": 15,
+              "date": "2025-12-14",
+              "opp": "Jets",
+              "han": "H",
+              "triggers": [
+                "N6"
+              ],
+              "net": -1
+            }
+          ]
+        },
+        "N7a": {
+          "count": 1,
+          "games": [
+            {
+              "week": 16,
+              "date": "2025-12-21",
+              "opp": "Broncos",
+              "han": "A",
+              "triggers": [
+                "N7a",
+                "N7c"
+              ],
+              "net": -2
+            }
+          ]
+        },
+        "N7c": {
+          "count": 1,
+          "games": [
+            {
+              "week": 16,
+              "date": "2025-12-21",
+              "opp": "Broncos",
+              "han": "A",
+              "triggers": [
+                "N7a",
+                "N7c"
+              ],
+              "net": -2
+            }
+          ]
+        }
+      }
+    },
+    "Chiefs": {
+      "totals": {
+        "pos": 9,
+        "neg": 3,
+        "net": 6,
+        "posGames": 7,
+        "negGames": 3
+      },
+      "byTrigger": {
+        "N5": {
+          "count": 1,
+          "games": [
+            {
+              "week": 2,
+              "date": "2025-09-14",
+              "opp": "Eagles",
+              "han": "H",
+              "triggers": [
+                "N5"
+              ],
+              "net": -1
+            }
+          ]
+        },
+        "P4": {
+          "count": 1,
+          "games": [
+            {
+              "week": 8,
+              "date": "2025-10-27",
+              "opp": "Commanders",
+              "han": "H",
+              "triggers": [
+                "P4"
+              ],
+              "net": 1
+            }
+          ]
+        },
+        "P1": {
+          "count": 3,
+          "games": [
+            {
+              "week": 11,
+              "date": "2025-11-16",
+              "opp": "Broncos",
+              "han": "A",
+              "triggers": [
+                "P1",
+                "N7c"
+              ],
+              "net": 0
+            },
+            {
+              "week": 14,
+              "date": "2025-12-07",
+              "opp": "Texans",
+              "han": "H",
+              "triggers": [
+                "P1",
+                "P5a"
+              ],
+              "net": 2
+            },
+            {
+              "week": 18,
+              "date": "2026-01-04",
+              "opp": "Raiders",
+              "han": "A",
+              "triggers": [
+                "P1",
+                "P3"
+              ],
+              "net": 2
+            }
+          ]
+        },
+        "N7c": {
+          "count": 1,
+          "games": [
+            {
+              "week": 11,
+              "date": "2025-11-16",
+              "opp": "Broncos",
+              "han": "A",
+              "triggers": [
+                "P1",
+                "N7c"
+              ],
+              "net": 0
+            }
+          ]
+        },
+        "P5a": {
+          "count": 3,
+          "games": [
+            {
+              "week": 12,
+              "date": "2025-11-23",
+              "opp": "Colts",
+              "han": "H",
+              "triggers": [
+                "P5a",
+                "N1"
+              ],
+              "net": 0
+            },
+            {
+              "week": 14,
+              "date": "2025-12-07",
+              "opp": "Texans",
+              "han": "H",
+              "triggers": [
+                "P1",
+                "P5a"
+              ],
+              "net": 2
+            },
+            {
+              "week": 15,
+              "date": "2025-12-14",
+              "opp": "Chargers",
+              "han": "H",
+              "triggers": [
+                "P5a"
+              ],
+              "net": 1
+            }
+          ]
+        },
+        "N1": {
+          "count": 1,
+          "games": [
+            {
+              "week": 12,
+              "date": "2025-11-23",
+              "opp": "Colts",
+              "han": "H",
+              "triggers": [
+                "P5a",
+                "N1"
+              ],
+              "net": 0
+            }
+          ]
+        },
+        "P3": {
+          "count": 2,
+          "games": [
+            {
+              "week": 13,
+              "date": "2025-11-27",
+              "opp": "Cowboys",
+              "han": "A",
+              "triggers": [
+                "P3"
+              ],
+              "net": 1
+            },
+            {
+              "week": 18,
+              "date": "2026-01-04",
+              "opp": "Raiders",
+              "han": "A",
+              "triggers": [
+                "P1",
+                "P3"
+              ],
+              "net": 2
+            }
+          ]
+        }
+      }
+    },
+    "Chargers": {
+      "totals": {
+        "pos": 9,
+        "neg": 13,
+        "net": -4,
+        "posGames": 7,
+        "negGames": 7
+      },
+      "byTrigger": {
+        "N5": {
+          "count": 1,
+          "games": [
+            {
+              "week": 2,
+              "date": "2025-09-15",
+              "opp": "Raiders",
+              "han": "A",
+              "triggers": [
+                "N5"
+              ],
+              "net": -1
+            }
+          ]
+        },
+        "N6": {
+          "count": 2,
+          "games": [
+            {
+              "week": 3,
+              "date": "2025-09-21",
+              "opp": "Broncos",
+              "han": "H",
+              "triggers": [
+                "N6"
+              ],
+              "net": -1
+            },
+            {
+              "week": 4,
+              "date": "2025-09-28",
+              "opp": "Giants",
+              "han": "A",
+              "triggers": [
+                "N2",
+                "N3",
+                "N6"
+              ],
+              "net": -3
+            }
+          ]
+        },
+        "N2": {
+          "count": 3,
+          "games": [
+            {
+              "week": 4,
+              "date": "2025-09-28",
+              "opp": "Giants",
+              "han": "A",
+              "triggers": [
+                "N2",
+                "N3",
+                "N6"
+              ],
+              "net": -3
+            },
+            {
+              "week": 6,
+              "date": "2025-10-12",
+              "opp": "Dolphins",
+              "han": "A",
+              "triggers": [
+                "N2",
+                "N3"
+              ],
+              "net": -2
+            },
+            {
+              "week": 11,
+              "date": "2025-11-16",
+              "opp": "Jaguars",
+              "han": "A",
+              "triggers": [
+                "N2"
+              ],
+              "net": -1
+            }
+          ]
+        },
+        "N3": {
+          "count": 4,
+          "games": [
+            {
+              "week": 4,
+              "date": "2025-09-28",
+              "opp": "Giants",
+              "han": "A",
+              "triggers": [
+                "N2",
+                "N3",
+                "N6"
+              ],
+              "net": -3
+            },
+            {
+              "week": 6,
+              "date": "2025-10-12",
+              "opp": "Dolphins",
+              "han": "A",
+              "triggers": [
+                "N2",
+                "N3"
+              ],
+              "net": -2
+            },
+            {
+              "week": 15,
+              "date": "2025-12-14",
+              "opp": "Chiefs",
+              "han": "A",
+              "triggers": [
+                "N3",
+                "N7a"
+              ],
+              "net": -2
+            },
+            {
+              "week": 18,
+              "date": "2026-01-04",
+              "opp": "Broncos",
+              "han": "A",
+              "triggers": [
+                "N3",
+                "N7a",
+                "N7c"
+              ],
+              "net": -3
+            }
+          ]
+        },
+        "P2": {
+          "count": 4,
+          "games": [
+            {
+              "week": 5,
+              "date": "2025-10-05",
+              "opp": "Commanders",
+              "han": "H",
+              "triggers": [
+                "P2",
+                "P3"
+              ],
+              "net": 2
+            },
+            {
+              "week": 7,
+              "date": "2025-10-19",
+              "opp": "Colts",
+              "han": "H",
+              "triggers": [
+                "P2",
+                "P3"
+              ],
+              "net": 2
+            },
+            {
+              "week": 10,
+              "date": "2025-11-09",
+              "opp": "Steelers",
+              "han": "H",
+              "triggers": [
+                "P2"
+              ],
+              "net": 1
+            },
+            {
+              "week": 14,
+              "date": "2025-12-08",
+              "opp": "Eagles",
+              "han": "H",
+              "triggers": [
+                "P2"
+              ],
+              "net": 1
+            }
+          ]
+        },
+        "P3": {
+          "count": 3,
+          "games": [
+            {
+              "week": 5,
+              "date": "2025-10-05",
+              "opp": "Commanders",
+              "han": "H",
+              "triggers": [
+                "P2",
+                "P3"
+              ],
+              "net": 2
+            },
+            {
+              "week": 7,
+              "date": "2025-10-19",
+              "opp": "Colts",
+              "han": "H",
+              "triggers": [
+                "P2",
+                "P3"
+              ],
+              "net": 2
+            },
+            {
+              "week": 16,
+              "date": "2025-12-21",
+              "opp": "Cowboys",
+              "han": "A",
+              "triggers": [
+                "P3"
+              ],
+              "net": 1
+            }
+          ]
+        },
+        "P1": {
+          "count": 2,
+          "games": [
+            {
+              "week": 9,
+              "date": "2025-11-02",
+              "opp": "Titans",
+              "han": "A",
+              "triggers": [
+                "P1"
+              ],
+              "net": 1
+            },
+            {
+              "week": 13,
+              "date": "2025-11-30",
+              "opp": "Raiders",
+              "han": "H",
+              "triggers": [
+                "P1"
+              ],
+              "net": 1
+            }
+          ]
+        },
+        "N7a": {
+          "count": 2,
+          "games": [
+            {
+              "week": 15,
+              "date": "2025-12-14",
+              "opp": "Chiefs",
+              "han": "A",
+              "triggers": [
+                "N3",
+                "N7a"
+              ],
+              "net": -2
+            },
+            {
+              "week": 18,
+              "date": "2026-01-04",
+              "opp": "Broncos",
+              "han": "A",
+              "triggers": [
+                "N3",
+                "N7a",
+                "N7c"
+              ],
+              "net": -3
+            }
+          ]
+        },
+        "N7c": {
+          "count": 1,
+          "games": [
+            {
+              "week": 18,
+              "date": "2026-01-04",
+              "opp": "Broncos",
+              "han": "A",
+              "triggers": [
+                "N3",
+                "N7a",
+                "N7c"
+              ],
+              "net": -3
+            }
+          ]
+        }
+      }
+    },
+    "Rams": {
+      "totals": {
+        "pos": 7,
+        "neg": 12,
+        "net": -5,
+        "posGames": 6,
+        "negGames": 10
+      },
+      "byTrigger": {
+        "N3": {
+          "count": 5,
+          "games": [
+            {
+              "week": 2,
+              "date": "2025-09-14",
+              "opp": "Titans",
+              "han": "A",
+              "triggers": [
+                "N3"
+              ],
+              "net": -1
+            },
+            {
+              "week": 6,
+              "date": "2025-10-12",
+              "opp": "Ravens",
+              "han": "A",
+              "triggers": [
+                "P1",
+                "N2",
+                "N3"
+              ],
+              "net": -1
+            },
+            {
+              "week": 10,
+              "date": "2025-11-09",
+              "opp": "49ers",
+              "han": "A",
+              "triggers": [
+                "N3"
+              ],
+              "net": -1
+            },
+            {
+              "week": 13,
+              "date": "2025-11-30",
+              "opp": "Panthers",
+              "han": "A",
+              "triggers": [
+                "N2",
+                "N3"
+              ],
+              "net": -2
+            },
+            {
+              "week": 16,
+              "date": "2025-12-18",
+              "opp": "Seahawks",
+              "han": "A",
+              "triggers": [
+                "N3"
+              ],
+              "net": -1
+            }
+          ]
+        },
+        "N2": {
+          "count": 5,
+          "games": [
+            {
+              "week": 3,
+              "date": "2025-09-21",
+              "opp": "Eagles",
+              "han": "A",
+              "triggers": [
+                "N2"
+              ],
+              "net": -1
+            },
+            {
+              "week": 6,
+              "date": "2025-10-12",
+              "opp": "Ravens",
+              "han": "A",
+              "triggers": [
+                "P1",
+                "N2",
+                "N3"
+              ],
+              "net": -1
+            },
+            {
+              "week": 7,
+              "date": "2025-10-19",
+              "opp": "Jaguars",
+              "han": "N",
+              "triggers": [
+                "N2"
+              ],
+              "net": -1
+            },
+            {
+              "week": 13,
+              "date": "2025-11-30",
+              "opp": "Panthers",
+              "han": "A",
+              "triggers": [
+                "N2",
+                "N3"
+              ],
+              "net": -2
+            },
+            {
+              "week": 17,
+              "date": "2025-12-29",
+              "opp": "Falcons",
+              "han": "A",
+              "triggers": [
+                "P1",
+                "P3",
+                "N2"
+              ],
+              "net": 1
+            }
+          ]
+        },
+        "P2": {
+          "count": 3,
+          "games": [
+            {
+              "week": 4,
+              "date": "2025-09-28",
+              "opp": "Colts",
+              "han": "H",
+              "triggers": [
+                "P2"
+              ],
+              "net": 1
+            },
+            {
+              "week": 12,
+              "date": "2025-11-23",
+              "opp": "Buccaneers",
+              "han": "H",
+              "triggers": [
+                "P2",
+                "N6"
+              ],
+              "net": 0
+            },
+            {
+              "week": 15,
+              "date": "2025-12-14",
+              "opp": "Lions",
+              "han": "H",
+              "triggers": [
+                "P2",
+                "N1"
+              ],
+              "net": 0
+            }
+          ]
+        },
+        "P1": {
+          "count": 3,
+          "games": [
+            {
+              "week": 6,
+              "date": "2025-10-12",
+              "opp": "Ravens",
+              "han": "A",
+              "triggers": [
+                "P1",
+                "N2",
+                "N3"
+              ],
+              "net": -1
+            },
+            {
+              "week": 9,
+              "date": "2025-11-02",
+              "opp": "Saints",
+              "han": "H",
+              "triggers": [
+                "P1"
+              ],
+              "net": 1
+            },
+            {
+              "week": 17,
+              "date": "2025-12-29",
+              "opp": "Falcons",
+              "han": "A",
+              "triggers": [
+                "P1",
+                "P3",
+                "N2"
+              ],
+              "net": 1
+            }
+          ]
+        },
+        "N6": {
+          "count": 1,
+          "games": [
+            {
+              "week": 12,
+              "date": "2025-11-23",
+              "opp": "Buccaneers",
+              "han": "H",
+              "triggers": [
+                "P2",
+                "N6"
+              ],
+              "net": 0
+            }
+          ]
+        },
+        "N1": {
+          "count": 1,
+          "games": [
+            {
+              "week": 15,
+              "date": "2025-12-14",
+              "opp": "Lions",
+              "han": "H",
+              "triggers": [
+                "P2",
+                "N1"
+              ],
+              "net": 0
+            }
+          ]
+        },
+        "P3": {
+          "count": 1,
+          "games": [
+            {
+              "week": 17,
+              "date": "2025-12-29",
+              "opp": "Falcons",
+              "han": "A",
+              "triggers": [
+                "P1",
+                "P3",
+                "N2"
+              ],
+              "net": 1
+            }
+          ]
+        }
+      }
+    },
+    "Raiders": {
+      "totals": {
+        "pos": 6,
+        "neg": 13,
+        "net": -7,
+        "posGames": 6,
+        "negGames": 9
+      },
+      "byTrigger": {
+        "N2": {
+          "count": 4,
+          "games": [
+            {
+              "week": 1,
+              "date": "2025-09-07",
+              "opp": "Patriots",
+              "han": "A",
+              "triggers": [
+                "N2"
+              ],
+              "net": -1
+            },
+            {
+              "week": 3,
+              "date": "2025-09-21",
+              "opp": "Commanders",
+              "han": "A",
+              "triggers": [
+                "N1",
+                "N2",
+                "N3"
+              ],
+              "net": -3
+            },
+            {
+              "week": 5,
+              "date": "2025-10-05",
+              "opp": "Colts",
+              "han": "A",
+              "triggers": [
+                "N2"
+              ],
+              "net": -1
+            },
+            {
+              "week": 15,
+              "date": "2025-12-14",
+              "opp": "Eagles",
+              "han": "A",
+              "triggers": [
+                "N2",
+                "N6",
+                "N7a"
+              ],
+              "net": -3
+            }
+          ]
+        },
+        "P6": {
+          "count": 1,
+          "games": [
+            {
+              "week": 2,
+              "date": "2025-09-15",
+              "opp": "Chargers",
+              "han": "H",
+              "triggers": [
+                "P6"
+              ],
+              "net": 1
+            }
+          ]
+        },
+        "N1": {
+          "count": 4,
+          "games": [
+            {
+              "week": 3,
+              "date": "2025-09-21",
+              "opp": "Commanders",
+              "han": "A",
+              "triggers": [
+                "N1",
+                "N2",
+                "N3"
+              ],
+              "net": -3
+            },
+            {
+              "week": 11,
+              "date": "2025-11-17",
+              "opp": "Cowboys",
+              "han": "H",
+              "triggers": [
+                "P3",
+                "N1"
+              ],
+              "net": 0
+            },
+            {
+              "week": 13,
+              "date": "2025-11-30",
+              "opp": "Chargers",
+              "han": "A",
+              "triggers": [
+                "N1"
+              ],
+              "net": -1
+            },
+            {
+              "week": 18,
+              "date": "2026-01-04",
+              "opp": "Chiefs",
+              "han": "H",
+              "triggers": [
+                "N1"
+              ],
+              "net": -1
+            }
+          ]
+        },
+        "N3": {
+          "count": 2,
+          "games": [
+            {
+              "week": 3,
+              "date": "2025-09-21",
+              "opp": "Commanders",
+              "han": "A",
+              "triggers": [
+                "N1",
+                "N2",
+                "N3"
+              ],
+              "net": -3
+            },
+            {
+              "week": 7,
+              "date": "2025-10-19",
+              "opp": "Chiefs",
+              "han": "A",
+              "triggers": [
+                "N3"
+              ],
+              "net": -1
+            }
+          ]
+        },
+        "P2": {
+          "count": 3,
+          "games": [
+            {
+              "week": 9,
+              "date": "2025-11-02",
+              "opp": "Jaguars",
+              "han": "H",
+              "triggers": [
+                "P2"
+              ],
+              "net": 1
+            },
+            {
+              "week": 12,
+              "date": "2025-11-23",
+              "opp": "Browns",
+              "han": "H",
+              "triggers": [
+                "P2"
+              ],
+              "net": 1
+            },
+            {
+              "week": 17,
+              "date": "2025-12-28",
+              "opp": "Giants",
+              "han": "H",
+              "triggers": [
+                "P2"
+              ],
+              "net": 1
+            }
+          ]
+        },
+        "N7c": {
+          "count": 1,
+          "games": [
+            {
+              "week": 10,
+              "date": "2025-11-06",
+              "opp": "Broncos",
+              "han": "A",
+              "triggers": [
+                "N7c"
+              ],
+              "net": -1
+            }
+          ]
+        },
+        "P3": {
+          "count": 2,
+          "games": [
+            {
+              "week": 11,
+              "date": "2025-11-17",
+              "opp": "Cowboys",
+              "han": "H",
+              "triggers": [
+                "P3",
+                "N1"
+              ],
+              "net": 0
+            },
+            {
+              "week": 16,
+              "date": "2025-12-21",
+              "opp": "Texans",
+              "han": "A",
+              "triggers": [
+                "P3"
+              ],
+              "net": 1
+            }
+          ]
+        },
+        "N6": {
+          "count": 1,
+          "games": [
+            {
+              "week": 15,
+              "date": "2025-12-14",
+              "opp": "Eagles",
+              "han": "A",
+              "triggers": [
+                "N2",
+                "N6",
+                "N7a"
+              ],
+              "net": -3
+            }
+          ]
+        },
+        "N7a": {
+          "count": 1,
+          "games": [
+            {
+              "week": 15,
+              "date": "2025-12-14",
+              "opp": "Eagles",
+              "han": "A",
+              "triggers": [
+                "N2",
+                "N6",
+                "N7a"
+              ],
+              "net": -3
+            }
+          ]
+        }
+      }
+    },
+    "Dolphins": {
+      "totals": {
+        "pos": 5,
+        "neg": 7,
+        "net": -2,
+        "posGames": 5,
+        "negGames": 7
+      },
+      "byTrigger": {
+        "P5b": {
+          "count": 1,
+          "games": [
+            {
+              "week": 2,
+              "date": "2025-09-14",
+              "opp": "Patriots",
+              "han": "H",
+              "triggers": [
+                "P5b",
+                "N3"
+              ],
+              "net": 0
+            }
+          ]
+        },
+        "N3": {
+          "count": 2,
+          "games": [
+            {
+              "week": 2,
+              "date": "2025-09-14",
+              "opp": "Patriots",
+              "han": "H",
+              "triggers": [
+                "P5b",
+                "N3"
+              ],
+              "net": 0
+            },
+            {
+              "week": 9,
+              "date": "2025-10-30",
+              "opp": "Ravens",
+              "han": "H",
+              "triggers": [
+                "N3"
+              ],
+              "net": -1
+            }
+          ]
+        },
+        "P1": {
+          "count": 3,
+          "games": [
+            {
+              "week": 4,
+              "date": "2025-09-29",
+              "opp": "Jets",
+              "han": "H",
+              "triggers": [
+                "P1",
+                "N6"
+              ],
+              "net": 0
+            },
+            {
+              "week": 10,
+              "date": "2025-11-09",
+              "opp": "Bills",
+              "han": "H",
+              "triggers": [
+                "P1"
+              ],
+              "net": 1
+            },
+            {
+              "week": 13,
+              "date": "2025-11-30",
+              "opp": "Saints",
+              "han": "H",
+              "triggers": [
+                "P1"
+              ],
+              "net": 1
+            }
+          ]
+        },
+        "N6": {
+          "count": 2,
+          "games": [
+            {
+              "week": 4,
+              "date": "2025-09-29",
+              "opp": "Jets",
+              "han": "H",
+              "triggers": [
+                "P1",
+                "N6"
+              ],
+              "net": 0
+            },
+            {
+              "week": 5,
+              "date": "2025-10-05",
+              "opp": "Panthers",
+              "han": "A",
+              "triggers": [
+                "N6"
+              ],
+              "net": -1
+            }
+          ]
+        },
+        "P2": {
+          "count": 1,
+          "games": [
+            {
+              "week": 6,
+              "date": "2025-10-12",
+              "opp": "Chargers",
+              "han": "H",
+              "triggers": [
+                "P2"
+              ],
+              "net": 1
+            }
+          ]
+        },
+        "N7a": {
+          "count": 3,
+          "games": [
+            {
+              "week": 14,
+              "date": "2025-12-07",
+              "opp": "Jets",
+              "han": "A",
+              "triggers": [
+                "N7a"
+              ],
+              "net": -1
+            },
+            {
+              "week": 15,
+              "date": "2025-12-15",
+              "opp": "Steelers",
+              "han": "A",
+              "triggers": [
+                "N7a"
+              ],
+              "net": -1
+            },
+            {
+              "week": 18,
+              "date": "2026-01-04",
+              "opp": "Patriots",
+              "han": "A",
+              "triggers": [
+                "N7a"
+              ],
+              "net": -1
+            }
+          ]
+        }
+      }
+    },
+    "Vikings": {
+      "totals": {
+        "pos": 3,
+        "neg": 10,
+        "net": -7,
+        "posGames": 3,
+        "negGames": 8
+      },
+      "byTrigger": {
+        "P3": {
+          "count": 2,
+          "games": [
+            {
+              "week": 2,
+              "date": "2025-09-14",
+              "opp": "Falcons",
+              "han": "H",
+              "triggers": [
+                "P3"
+              ],
+              "net": 1
+            },
+            {
+              "week": 17,
+              "date": "2025-12-25",
+              "opp": "Lions",
+              "han": "H",
+              "triggers": [
+                "P3"
+              ],
+              "net": 1
+            }
+          ]
+        },
+        "N3": {
+          "count": 3,
+          "games": [
+            {
+              "week": 4,
+              "date": "2025-09-28",
+              "opp": "Steelers",
+              "han": "N",
+              "triggers": [
+                "N3"
+              ],
+              "net": -1
+            },
+            {
+              "week": 12,
+              "date": "2025-11-23",
+              "opp": "Packers",
+              "han": "A",
+              "triggers": [
+                "N3",
+                "N7a"
+              ],
+              "net": -2
+            },
+            {
+              "week": 16,
+              "date": "2025-12-21",
+              "opp": "Giants",
+              "han": "A",
+              "triggers": [
+                "N3",
+                "N7a"
+              ],
+              "net": -2
+            }
+          ]
+        },
+        "N5": {
+          "count": 1,
+          "games": [
+            {
+              "week": 5,
+              "date": "2025-10-05",
+              "opp": "Browns",
+              "han": "N",
+              "triggers": [
+                "N5"
+              ],
+              "net": -1
+            }
+          ]
+        },
+        "P1": {
+          "count": 1,
+          "games": [
+            {
+              "week": 7,
+              "date": "2025-10-19",
+              "opp": "Eagles",
+              "han": "H",
+              "triggers": [
+                "P1"
+              ],
+              "net": 1
+            }
+          ]
+        },
+        "N1": {
+          "count": 3,
+          "games": [
+            {
+              "week": 9,
+              "date": "2025-11-02",
+              "opp": "Lions",
+              "han": "A",
+              "triggers": [
+                "N1"
+              ],
+              "net": -1
+            },
+            {
+              "week": 10,
+              "date": "2025-11-09",
+              "opp": "Ravens",
+              "han": "H",
+              "triggers": [
+                "N1"
+              ],
+              "net": -1
+            },
+            {
+              "week": 15,
+              "date": "2025-12-14",
+              "opp": "Cowboys",
+              "han": "A",
+              "triggers": [
+                "N1"
+              ],
+              "net": -1
+            }
+          ]
+        },
+        "N7a": {
+          "count": 2,
+          "games": [
+            {
+              "week": 12,
+              "date": "2025-11-23",
+              "opp": "Packers",
+              "han": "A",
+              "triggers": [
+                "N3",
+                "N7a"
+              ],
+              "net": -2
+            },
+            {
+              "week": 16,
+              "date": "2025-12-21",
+              "opp": "Giants",
+              "han": "A",
+              "triggers": [
+                "N3",
+                "N7a"
+              ],
+              "net": -2
+            }
+          ]
+        },
+        "N6": {
+          "count": 1,
+          "games": [
+            {
+              "week": 13,
+              "date": "2025-11-30",
+              "opp": "Seahawks",
+              "han": "A",
+              "triggers": [
+                "N6"
+              ],
+              "net": -1
+            }
+          ]
+        }
+      }
+    },
+    "Patriots": {
+      "totals": {
+        "pos": 5,
+        "neg": 3,
+        "net": 2,
+        "posGames": 5,
+        "negGames": 3
+      },
+      "byTrigger": {
+        "P2": {
+          "count": 1,
+          "games": [
+            {
+              "week": 1,
+              "date": "2025-09-07",
+              "opp": "Raiders",
+              "han": "H",
+              "triggers": [
+                "P2"
+              ],
+              "net": 1
+            }
+          ]
+        },
+        "N7b": {
+          "count": 1,
+          "games": [
+            {
+              "week": 2,
+              "date": "2025-09-14",
+              "opp": "Dolphins",
+              "han": "A",
+              "triggers": [
+                "N7b"
+              ],
+              "net": -1
+            }
+          ]
+        },
+        "P3": {
+          "count": 1,
+          "games": [
+            {
+              "week": 6,
+              "date": "2025-10-12",
+              "opp": "Saints",
+              "han": "A",
+              "triggers": [
+                "P3"
+              ],
+              "net": 1
+            }
+          ]
+        },
+        "N4": {
+          "count": 1,
+          "games": [
+            {
+              "week": 7,
+              "date": "2025-10-19",
+              "opp": "Titans",
+              "han": "A",
+              "triggers": [
+                "N4"
+              ],
+              "net": -1
+            }
+          ]
+        },
+        "N1": {
+          "count": 1,
+          "games": [
+            {
+              "week": 10,
+              "date": "2025-11-09",
+              "opp": "Buccaneers",
+              "han": "A",
+              "triggers": [
+                "N1"
+              ],
+              "net": -1
+            }
+          ]
+        },
+        "P1": {
+          "count": 2,
+          "games": [
+            {
+              "week": 12,
+              "date": "2025-11-23",
+              "opp": "Bengals",
+              "han": "A",
+              "triggers": [
+                "P1"
+              ],
+              "net": 1
+            },
+            {
+              "week": 15,
+              "date": "2025-12-14",
+              "opp": "Bills",
+              "han": "H",
+              "triggers": [
+                "P1"
+              ],
+              "net": 1
+            }
+          ]
+        },
+        "P5a": {
+          "count": 1,
+          "games": [
+            {
+              "week": 18,
+              "date": "2026-01-04",
+              "opp": "Dolphins",
+              "han": "H",
+              "triggers": [
+                "P5a"
+              ],
+              "net": 1
+            }
+          ]
+        }
+      }
+    },
+    "Saints": {
+      "totals": {
+        "pos": 4,
+        "neg": 10,
+        "net": -6,
+        "posGames": 4,
+        "negGames": 9
+      },
+      "byTrigger": {
+        "N3": {
+          "count": 5,
+          "games": [
+            {
+              "week": 3,
+              "date": "2025-09-21",
+              "opp": "Seahawks",
+              "han": "A",
+              "triggers": [
+                "N3"
+              ],
+              "net": -1
+            },
+            {
+              "week": 7,
+              "date": "2025-10-19",
+              "opp": "Bears",
+              "han": "A",
+              "triggers": [
+                "N3"
+              ],
+              "net": -1
+            },
+            {
+              "week": 10,
+              "date": "2025-11-09",
+              "opp": "Panthers",
+              "han": "A",
+              "triggers": [
+                "N3"
+              ],
+              "net": -1
+            },
+            {
+              "week": 13,
+              "date": "2025-11-30",
+              "opp": "Dolphins",
+              "han": "A",
+              "triggers": [
+                "N1",
+                "N3"
+              ],
+              "net": -2
+            },
+            {
+              "week": 17,
+              "date": "2025-12-28",
+              "opp": "Titans",
+              "han": "A",
+              "triggers": [
+                "N3"
+              ],
+              "net": -1
+            }
+          ]
+        },
+        "N1": {
+          "count": 4,
+          "games": [
+            {
+              "week": 4,
+              "date": "2025-09-28",
+              "opp": "Bills",
+              "han": "A",
+              "triggers": [
+                "N1"
+              ],
+              "net": -1
+            },
+            {
+              "week": 9,
+              "date": "2025-11-02",
+              "opp": "Rams",
+              "han": "A",
+              "triggers": [
+                "N1"
+              ],
+              "net": -1
+            },
+            {
+              "week": 13,
+              "date": "2025-11-30",
+              "opp": "Dolphins",
+              "han": "A",
+              "triggers": [
+                "N1",
+                "N3"
+              ],
+              "net": -2
+            },
+            {
+              "week": 15,
+              "date": "2025-12-14",
+              "opp": "Panthers",
+              "han": "H",
+              "triggers": [
+                "P3",
+                "N1"
+              ],
+              "net": 0
+            }
+          ]
+        },
+        "P3": {
+          "count": 3,
+          "games": [
+            {
+              "week": 8,
+              "date": "2025-10-26",
+              "opp": "Buccaneers",
+              "han": "H",
+              "triggers": [
+                "P3"
+              ],
+              "net": 1
+            },
+            {
+              "week": 15,
+              "date": "2025-12-14",
+              "opp": "Panthers",
+              "han": "H",
+              "triggers": [
+                "P3",
+                "N1"
+              ],
+              "net": 0
+            },
+            {
+              "week": 18,
+              "date": "2026-01-04",
+              "opp": "Falcons",
+              "han": "A",
+              "triggers": [
+                "P3"
+              ],
+              "net": 1
+            }
+          ]
+        },
+        "P1": {
+          "count": 1,
+          "games": [
+            {
+              "week": 12,
+              "date": "2025-11-23",
+              "opp": "Falcons",
+              "han": "H",
+              "triggers": [
+                "P1"
+              ],
+              "net": 1
+            }
+          ]
+        },
+        "N6": {
+          "count": 1,
+          "games": [
+            {
+              "week": 16,
+              "date": "2025-12-21",
+              "opp": "Jets",
+              "han": "H",
+              "triggers": [
+                "N6"
+              ],
+              "net": -1
+            }
+          ]
+        }
+      }
+    },
+    "Giants": {
+      "totals": {
+        "pos": 8,
+        "neg": 9,
+        "net": -1,
+        "posGames": 7,
+        "negGames": 7
+      },
+      "byTrigger": {
+        "N1": {
+          "count": 2,
+          "games": [
+            {
+              "week": 2,
+              "date": "2025-09-14",
+              "opp": "Cowboys",
+              "han": "A",
+              "triggers": [
+                "N1"
+              ],
+              "net": -1
+            },
+            {
+              "week": 18,
+              "date": "2026-01-04",
+              "opp": "Cowboys",
+              "han": "H",
+              "triggers": [
+                "P5a",
+                "N1",
+                "N3"
+              ],
+              "net": -1
+            }
+          ]
+        },
+        "N3": {
+          "count": 4,
+          "games": [
+            {
+              "week": 3,
+              "date": "2025-09-21",
+              "opp": "Chiefs",
+              "han": "H",
+              "triggers": [
+                "N3",
+                "N6"
+              ],
+              "net": -2
+            },
+            {
+              "week": 6,
+              "date": "2025-10-09",
+              "opp": "Eagles",
+              "han": "H",
+              "triggers": [
+                "N3"
+              ],
+              "net": -1
+            },
+            {
+              "week": 13,
+              "date": "2025-12-01",
+              "opp": "Patriots",
+              "han": "A",
+              "triggers": [
+                "N3"
+              ],
+              "net": -1
+            },
+            {
+              "week": 18,
+              "date": "2026-01-04",
+              "opp": "Cowboys",
+              "han": "H",
+              "triggers": [
+                "P5a",
+                "N1",
+                "N3"
+              ],
+              "net": -1
+            }
+          ]
+        },
+        "N6": {
+          "count": 1,
+          "games": [
+            {
+              "week": 3,
+              "date": "2025-09-21",
+              "opp": "Chiefs",
+              "han": "H",
+              "triggers": [
+                "N3",
+                "N6"
+              ],
+              "net": -2
+            }
+          ]
+        },
+        "P2": {
+          "count": 2,
+          "games": [
+            {
+              "week": 4,
+              "date": "2025-09-28",
+              "opp": "Chargers",
+              "han": "H",
+              "triggers": [
+                "P2"
+              ],
+              "net": 1
+            },
+            {
+              "week": 9,
+              "date": "2025-11-02",
+              "opp": "49ers",
+              "han": "H",
+              "triggers": [
+                "P2"
+              ],
+              "net": 1
+            }
+          ]
+        },
+        "P1": {
+          "count": 2,
+          "games": [
+            {
+              "week": 7,
+              "date": "2025-10-19",
+              "opp": "Broncos",
+              "han": "A",
+              "triggers": [
+                "P1",
+                "P6",
+                "N7c"
+              ],
+              "net": 1
+            },
+            {
+              "week": 15,
+              "date": "2025-12-14",
+              "opp": "Commanders",
+              "han": "H",
+              "triggers": [
+                "P1"
+              ],
+              "net": 1
+            }
+          ]
+        },
+        "P6": {
+          "count": 1,
+          "games": [
+            {
+              "week": 7,
+              "date": "2025-10-19",
+              "opp": "Broncos",
+              "han": "A",
+              "triggers": [
+                "P1",
+                "P6",
+                "N7c"
+              ],
+              "net": 1
+            }
+          ]
+        },
+        "N7c": {
+          "count": 1,
+          "games": [
+            {
+              "week": 7,
+              "date": "2025-10-19",
+              "opp": "Broncos",
+              "han": "A",
+              "triggers": [
+                "P1",
+                "P6",
+                "N7c"
+              ],
+              "net": 1
+            }
+          ]
+        },
+        "P5a": {
+          "count": 2,
+          "games": [
+            {
+              "week": 16,
+              "date": "2025-12-21",
+              "opp": "Vikings",
+              "han": "H",
+              "triggers": [
+                "P5a"
+              ],
+              "net": 1
+            },
+            {
+              "week": 18,
+              "date": "2026-01-04",
+              "opp": "Cowboys",
+              "han": "H",
+              "triggers": [
+                "P5a",
+                "N1",
+                "N3"
+              ],
+              "net": -1
+            }
+          ]
+        },
+        "P3": {
+          "count": 1,
+          "games": [
+            {
+              "week": 17,
+              "date": "2025-12-28",
+              "opp": "Raiders",
+              "han": "A",
+              "triggers": [
+                "P3",
+                "N2"
+              ],
+              "net": 0
+            }
+          ]
+        },
+        "N2": {
+          "count": 1,
+          "games": [
+            {
+              "week": 17,
+              "date": "2025-12-28",
+              "opp": "Raiders",
+              "han": "A",
+              "triggers": [
+                "P3",
+                "N2"
+              ],
+              "net": 0
+            }
+          ]
+        }
+      }
+    },
+    "Jets": {
+      "totals": {
+        "pos": 4,
+        "neg": 4,
+        "net": 0,
+        "posGames": 4,
+        "negGames": 4
+      },
+      "byTrigger": {
+        "N1": {
+          "count": 2,
+          "games": [
+            {
+              "week": 4,
+              "date": "2025-09-29",
+              "opp": "Dolphins",
+              "han": "A",
+              "triggers": [
+                "N1"
+              ],
+              "net": -1
+            },
+            {
+              "week": 8,
+              "date": "2025-10-26",
+              "opp": "Bengals",
+              "han": "A",
+              "triggers": [
+                "N1"
+              ],
+              "net": -1
+            }
+          ]
+        },
+        "N5": {
+          "count": 1,
+          "games": [
+            {
+              "week": 7,
+              "date": "2025-10-19",
+              "opp": "Panthers",
+              "han": "H",
+              "triggers": [
+                "N5"
+              ],
+              "net": -1
+            }
+          ]
+        },
+        "P1": {
+          "count": 1,
+          "games": [
+            {
+              "week": 12,
+              "date": "2025-11-23",
+              "opp": "Ravens",
+              "han": "A",
+              "triggers": [
+                "P1"
+              ],
+              "net": 1
+            }
+          ]
+        },
+        "P5a": {
+          "count": 2,
+          "games": [
+            {
+              "week": 13,
+              "date": "2025-11-30",
+              "opp": "Falcons",
+              "han": "H",
+              "triggers": [
+                "P5a"
+              ],
+              "net": 1
+            },
+            {
+              "week": 14,
+              "date": "2025-12-07",
+              "opp": "Dolphins",
+              "han": "H",
+              "triggers": [
+                "P5a"
+              ],
+              "net": 1
+            }
+          ]
+        },
+        "P3": {
+          "count": 1,
+          "games": [
+            {
+              "week": 16,
+              "date": "2025-12-21",
+              "opp": "Saints",
+              "han": "A",
+              "triggers": [
+                "P3"
+              ],
+              "net": 1
+            }
+          ]
+        },
+        "N3": {
+          "count": 1,
+          "games": [
+            {
+              "week": 17,
+              "date": "2025-12-28",
+              "opp": "Patriots",
+              "han": "H",
+              "triggers": [
+                "N3"
+              ],
+              "net": -1
+            }
+          ]
+        }
+      }
+    },
+    "Eagles": {
+      "totals": {
+        "pos": 9,
+        "neg": 5,
+        "net": 4,
+        "posGames": 8,
+        "negGames": 5
+      },
+      "byTrigger": {
+        "P6": {
+          "count": 1,
+          "games": [
+            {
+              "week": 2,
+              "date": "2025-09-14",
+              "opp": "Chiefs",
+              "han": "A",
+              "triggers": [
+                "P6"
+              ],
+              "net": 1
+            }
+          ]
+        },
+        "P2": {
+          "count": 2,
+          "games": [
+            {
+              "week": 3,
+              "date": "2025-09-21",
+              "opp": "Rams",
+              "han": "H",
+              "triggers": [
+                "P2"
+              ],
+              "net": 1
+            },
+            {
+              "week": 15,
+              "date": "2025-12-14",
+              "opp": "Raiders",
+              "han": "H",
+              "triggers": [
+                "P2",
+                "P5a"
+              ],
+              "net": 2
+            }
+          ]
+        },
+        "P3": {
+          "count": 3,
+          "games": [
+            {
+              "week": 7,
+              "date": "2025-10-19",
+              "opp": "Vikings",
+              "han": "A",
+              "triggers": [
+                "P3",
+                "N1"
+              ],
+              "net": 0
+            },
+            {
+              "week": 12,
+              "date": "2025-11-23",
+              "opp": "Cowboys",
+              "han": "A",
+              "triggers": [
+                "P3"
+              ],
+              "net": 1
+            },
+            {
+              "week": 14,
+              "date": "2025-12-08",
+              "opp": "Chargers",
+              "han": "A",
+              "triggers": [
+                "P3",
+                "N2"
+              ],
+              "net": 0
+            }
+          ]
+        },
+        "N1": {
+          "count": 2,
+          "games": [
+            {
+              "week": 7,
+              "date": "2025-10-19",
+              "opp": "Vikings",
+              "han": "A",
+              "triggers": [
+                "P3",
+                "N1"
+              ],
+              "net": 0
+            },
+            {
+              "week": 18,
+              "date": "2026-01-04",
+              "opp": "Commanders",
+              "han": "H",
+              "triggers": [
+                "N1"
+              ],
+              "net": -1
+            }
+          ]
+        },
+        "N3": {
+          "count": 2,
+          "games": [
+            {
+              "week": 8,
+              "date": "2025-10-26",
+              "opp": "Giants",
+              "han": "H",
+              "triggers": [
+                "N3"
+              ],
+              "net": -1
+            },
+            {
+              "week": 13,
+              "date": "2025-11-28",
+              "opp": "Bears",
+              "han": "H",
+              "triggers": [
+                "N3"
+              ],
+              "net": -1
+            }
+          ]
+        },
+        "P1": {
+          "count": 1,
+          "games": [
+            {
+              "week": 10,
+              "date": "2025-11-10",
+              "opp": "Packers",
+              "han": "A",
+              "triggers": [
+                "P1"
+              ],
+              "net": 1
+            }
+          ]
+        },
+        "P5a": {
+          "count": 2,
+          "games": [
+            {
+              "week": 11,
+              "date": "2025-11-16",
+              "opp": "Lions",
+              "han": "H",
+              "triggers": [
+                "P5a"
+              ],
+              "net": 1
+            },
+            {
+              "week": 15,
+              "date": "2025-12-14",
+              "opp": "Raiders",
+              "han": "H",
+              "triggers": [
+                "P2",
+                "P5a"
+              ],
+              "net": 2
+            }
+          ]
+        },
+        "N2": {
+          "count": 1,
+          "games": [
+            {
+              "week": 14,
+              "date": "2025-12-08",
+              "opp": "Chargers",
+              "han": "A",
+              "triggers": [
+                "P3",
+                "N2"
+              ],
+              "net": 0
+            }
+          ]
+        }
+      }
+    },
+    "Steelers": {
+      "totals": {
+        "pos": 6,
+        "neg": 7,
+        "net": -1,
+        "posGames": 5,
+        "negGames": 6
+      },
+      "byTrigger": {
+        "P2": {
+          "count": 1,
+          "games": [
+            {
+              "week": 2,
+              "date": "2025-09-14",
+              "opp": "Seahawks",
+              "han": "H",
+              "triggers": [
+                "P2"
+              ],
+              "net": 1
+            }
+          ]
+        },
+        "P1": {
+          "count": 2,
+          "games": [
+            {
+              "week": 6,
+              "date": "2025-10-12",
+              "opp": "Browns",
+              "han": "H",
+              "triggers": [
+                "P1",
+                "P6"
+              ],
+              "net": 2
+            },
+            {
+              "week": 8,
+              "date": "2025-10-26",
+              "opp": "Packers",
+              "han": "H",
+              "triggers": [
+                "P1",
+                "N6"
+              ],
+              "net": 0
+            }
+          ]
+        },
+        "P6": {
+          "count": 1,
+          "games": [
+            {
+              "week": 6,
+              "date": "2025-10-12",
+              "opp": "Browns",
+              "han": "H",
+              "triggers": [
+                "P1",
+                "P6"
+              ],
+              "net": 2
+            }
+          ]
+        },
+        "N6": {
+          "count": 1,
+          "games": [
+            {
+              "week": 8,
+              "date": "2025-10-26",
+              "opp": "Packers",
+              "han": "H",
+              "triggers": [
+                "P1",
+                "N6"
+              ],
+              "net": 0
+            }
+          ]
+        },
+        "N2": {
+          "count": 1,
+          "games": [
+            {
+              "week": 10,
+              "date": "2025-11-09",
+              "opp": "Chargers",
+              "han": "A",
+              "triggers": [
+                "N2"
+              ],
+              "net": -1
+            }
+          ]
+        },
+        "N1": {
+          "count": 3,
+          "games": [
+            {
+              "week": 11,
+              "date": "2025-11-16",
+              "opp": "Bengals",
+              "han": "H",
+              "triggers": [
+                "N1",
+                "N3"
+              ],
+              "net": -2
+            },
+            {
+              "week": 13,
+              "date": "2025-11-30",
+              "opp": "Bills",
+              "han": "H",
+              "triggers": [
+                "N1"
+              ],
+              "net": -1
+            },
+            {
+              "week": 14,
+              "date": "2025-12-07",
+              "opp": "Ravens",
+              "han": "A",
+              "triggers": [
+                "N1"
+              ],
+              "net": -1
+            }
+          ]
+        },
+        "N3": {
+          "count": 2,
+          "games": [
+            {
+              "week": 11,
+              "date": "2025-11-16",
+              "opp": "Bengals",
+              "han": "H",
+              "triggers": [
+                "N1",
+                "N3"
+              ],
+              "net": -2
+            },
+            {
+              "week": 17,
+              "date": "2025-12-28",
+              "opp": "Browns",
+              "han": "A",
+              "triggers": [
+                "N3"
+              ],
+              "net": -1
+            }
+          ]
+        },
+        "P5a": {
+          "count": 1,
+          "games": [
+            {
+              "week": 15,
+              "date": "2025-12-15",
+              "opp": "Dolphins",
+              "han": "H",
+              "triggers": [
+                "P5a"
+              ],
+              "net": 1
+            }
+          ]
+        },
+        "P3": {
+          "count": 1,
+          "games": [
+            {
+              "week": 16,
+              "date": "2025-12-21",
+              "opp": "Lions",
+              "han": "A",
+              "triggers": [
+                "P3"
+              ],
+              "net": 1
+            }
+          ]
+        }
+      }
+    },
+    "Seahawks": {
+      "totals": {
+        "pos": 5,
+        "neg": 10,
+        "net": -5,
+        "posGames": 4,
+        "negGames": 9
+      },
+      "byTrigger": {
+        "N2": {
+          "count": 5,
+          "games": [
+            {
+              "week": 2,
+              "date": "2025-09-14",
+              "opp": "Steelers",
+              "han": "A",
+              "triggers": [
+                "N2"
+              ],
+              "net": -1
+            },
+            {
+              "week": 6,
+              "date": "2025-10-12",
+              "opp": "Jaguars",
+              "han": "A",
+              "triggers": [
+                "N2"
+              ],
+              "net": -1
+            },
+            {
+              "week": 9,
+              "date": "2025-11-02",
+              "opp": "Commanders",
+              "han": "A",
+              "triggers": [
+                "P1",
+                "N2"
+              ],
+              "net": 0
+            },
+            {
+              "week": 14,
+              "date": "2025-12-07",
+              "opp": "Falcons",
+              "han": "A",
+              "triggers": [
+                "N2"
+              ],
+              "net": -1
+            },
+            {
+              "week": 17,
+              "date": "2025-12-28",
+              "opp": "Panthers",
+              "han": "A",
+              "triggers": [
+                "P1",
+                "N2"
+              ],
+              "net": 0
+            }
+          ]
+        },
+        "P1": {
+          "count": 3,
+          "games": [
+            {
+              "week": 5,
+              "date": "2025-10-05",
+              "opp": "Buccaneers",
+              "han": "H",
+              "triggers": [
+                "P1",
+                "P2",
+                "N3"
+              ],
+              "net": 1
+            },
+            {
+              "week": 9,
+              "date": "2025-11-02",
+              "opp": "Commanders",
+              "han": "A",
+              "triggers": [
+                "P1",
+                "N2"
+              ],
+              "net": 0
+            },
+            {
+              "week": 17,
+              "date": "2025-12-28",
+              "opp": "Panthers",
+              "han": "A",
+              "triggers": [
+                "P1",
+                "N2"
+              ],
+              "net": 0
+            }
+          ]
+        },
+        "P2": {
+          "count": 2,
+          "games": [
+            {
+              "week": 5,
+              "date": "2025-10-05",
+              "opp": "Buccaneers",
+              "han": "H",
+              "triggers": [
+                "P1",
+                "P2",
+                "N3"
+              ],
+              "net": 1
+            },
+            {
+              "week": 15,
+              "date": "2025-12-14",
+              "opp": "Colts",
+              "han": "H",
+              "triggers": [
+                "P2",
+                "N3"
+              ],
+              "net": 0
+            }
+          ]
+        },
+        "N3": {
+          "count": 3,
+          "games": [
+            {
+              "week": 5,
+              "date": "2025-10-05",
+              "opp": "Buccaneers",
+              "han": "H",
+              "triggers": [
+                "P1",
+                "P2",
+                "N3"
+              ],
+              "net": 1
+            },
+            {
+              "week": 12,
+              "date": "2025-11-23",
+              "opp": "Titans",
+              "han": "A",
+              "triggers": [
+                "N3",
+                "N6"
+              ],
+              "net": -2
+            },
+            {
+              "week": 15,
+              "date": "2025-12-14",
+              "opp": "Colts",
+              "han": "H",
+              "triggers": [
+                "P2",
+                "N3"
+              ],
+              "net": 0
+            }
+          ]
+        },
+        "N1": {
+          "count": 1,
+          "games": [
+            {
+              "week": 7,
+              "date": "2025-10-20",
+              "opp": "Texans",
+              "han": "H",
+              "triggers": [
+                "N1"
+              ],
+              "net": -1
+            }
+          ]
+        },
+        "N6": {
+          "count": 1,
+          "games": [
+            {
+              "week": 12,
+              "date": "2025-11-23",
+              "opp": "Titans",
+              "han": "A",
+              "triggers": [
+                "N3",
+                "N6"
+              ],
+              "net": -2
+            }
+          ]
+        }
+      }
+    },
+    "49ers": {
+      "totals": {
+        "pos": 7,
+        "neg": 7,
+        "net": 0,
+        "posGames": 7,
+        "negGames": 5
+      },
+      "byTrigger": {
+        "P3": {
+          "count": 2,
+          "games": [
+            {
+              "week": 2,
+              "date": "2025-09-14",
+              "opp": "Saints",
+              "han": "A",
+              "triggers": [
+                "P3"
+              ],
+              "net": 1
+            },
+            {
+              "week": 5,
+              "date": "2025-10-02",
+              "opp": "Rams",
+              "han": "A",
+              "triggers": [
+                "P3"
+              ],
+              "net": 1
+            }
+          ]
+        },
+        "P2": {
+          "count": 3,
+          "games": [
+            {
+              "week": 4,
+              "date": "2025-09-28",
+              "opp": "Jaguars",
+              "han": "H",
+              "triggers": [
+                "P2"
+              ],
+              "net": 1
+            },
+            {
+              "week": 7,
+              "date": "2025-10-19",
+              "opp": "Falcons",
+              "han": "H",
+              "triggers": [
+                "P2"
+              ],
+              "net": 1
+            },
+            {
+              "week": 12,
+              "date": "2025-11-24",
+              "opp": "Panthers",
+              "han": "H",
+              "triggers": [
+                "P2"
+              ],
+              "net": 1
+            }
+          ]
+        },
+        "P1": {
+          "count": 2,
+          "games": [
+            {
+              "week": 6,
+              "date": "2025-10-12",
+              "opp": "Buccaneers",
+              "han": "A",
+              "triggers": [
+                "P1",
+                "N2",
+                "N3"
+              ],
+              "net": -1
+            },
+            {
+              "week": 15,
+              "date": "2025-12-14",
+              "opp": "Titans",
+              "han": "H",
+              "triggers": [
+                "P1"
+              ],
+              "net": 1
+            }
+          ]
+        },
+        "N2": {
+          "count": 4,
+          "games": [
+            {
+              "week": 6,
+              "date": "2025-10-12",
+              "opp": "Buccaneers",
+              "han": "A",
+              "triggers": [
+                "P1",
+                "N2",
+                "N3"
+              ],
+              "net": -1
+            },
+            {
+              "week": 9,
+              "date": "2025-11-02",
+              "opp": "Giants",
+              "han": "A",
+              "triggers": [
+                "N2",
+                "N3"
+              ],
+              "net": -2
+            },
+            {
+              "week": 13,
+              "date": "2025-11-30",
+              "opp": "Browns",
+              "han": "A",
+              "triggers": [
+                "N2"
+              ],
+              "net": -1
+            },
+            {
+              "week": 16,
+              "date": "2025-12-22",
+              "opp": "Colts",
+              "han": "A",
+              "triggers": [
+                "N2"
+              ],
+              "net": -1
+            }
+          ]
+        },
+        "N3": {
+          "count": 3,
+          "games": [
+            {
+              "week": 6,
+              "date": "2025-10-12",
+              "opp": "Buccaneers",
+              "han": "A",
+              "triggers": [
+                "P1",
+                "N2",
+                "N3"
+              ],
+              "net": -1
+            },
+            {
+              "week": 9,
+              "date": "2025-11-02",
+              "opp": "Giants",
+              "han": "A",
+              "triggers": [
+                "N2",
+                "N3"
+              ],
+              "net": -2
+            },
+            {
+              "week": 17,
+              "date": "2025-12-28",
+              "opp": "Bears",
+              "han": "H",
+              "triggers": [
+                "N3"
+              ],
+              "net": -1
+            }
+          ]
+        }
+      }
+    },
+    "Buccaneers": {
+      "totals": {
+        "pos": 5,
+        "neg": 8,
+        "net": -3,
+        "posGames": 5,
+        "negGames": 7
+      },
+      "byTrigger": {
+        "N3": {
+          "count": 1,
+          "games": [
+            {
+              "week": 3,
+              "date": "2025-09-21",
+              "opp": "Jets",
+              "han": "H",
+              "triggers": [
+                "N3"
+              ],
+              "net": -1
+            }
+          ]
+        },
+        "N1": {
+          "count": 2,
+          "games": [
+            {
+              "week": 5,
+              "date": "2025-10-05",
+              "opp": "Seahawks",
+              "han": "A",
+              "triggers": [
+                "N1",
+                "N2"
+              ],
+              "net": -2
+            },
+            {
+              "week": 6,
+              "date": "2025-10-12",
+              "opp": "49ers",
+              "han": "H",
+              "triggers": [
+                "P2",
+                "N1"
+              ],
+              "net": 0
+            }
+          ]
+        },
+        "N2": {
+          "count": 2,
+          "games": [
+            {
+              "week": 5,
+              "date": "2025-10-05",
+              "opp": "Seahawks",
+              "han": "A",
+              "triggers": [
+                "N1",
+                "N2"
+              ],
+              "net": -2
+            },
+            {
+              "week": 12,
+              "date": "2025-11-23",
+              "opp": "Rams",
+              "han": "A",
+              "triggers": [
+                "P3",
+                "N2"
+              ],
+              "net": 0
+            }
+          ]
+        },
+        "P2": {
+          "count": 1,
+          "games": [
+            {
+              "week": 6,
+              "date": "2025-10-12",
+              "opp": "49ers",
+              "han": "H",
+              "triggers": [
+                "P2",
+                "N1"
+              ],
+              "net": 0
+            }
+          ]
+        },
+        "P1": {
+          "count": 2,
+          "games": [
+            {
+              "week": 10,
+              "date": "2025-11-09",
+              "opp": "Patriots",
+              "han": "H",
+              "triggers": [
+                "P1"
+              ],
+              "net": 1
+            },
+            {
+              "week": 16,
+              "date": "2025-12-21",
+              "opp": "Panthers",
+              "han": "A",
+              "triggers": [
+                "P1",
+                "N6"
+              ],
+              "net": 0
+            }
+          ]
+        },
+        "N7a": {
+          "count": 1,
+          "games": [
+            {
+              "week": 11,
+              "date": "2025-11-16",
+              "opp": "Bills",
+              "han": "A",
+              "triggers": [
+                "N7a"
+              ],
+              "net": -1
+            }
+          ]
+        },
+        "P3": {
+          "count": 1,
+          "games": [
+            {
+              "week": 12,
+              "date": "2025-11-23",
+              "opp": "Rams",
+              "han": "A",
+              "triggers": [
+                "P3",
+                "N2"
+              ],
+              "net": 0
+            }
+          ]
+        },
+        "P4": {
+          "count": 1,
+          "games": [
+            {
+              "week": 15,
+              "date": "2025-12-11",
+              "opp": "Falcons",
+              "han": "H",
+              "triggers": [
+                "P4"
+              ],
+              "net": 1
+            }
+          ]
+        },
+        "N6": {
+          "count": 2,
+          "games": [
+            {
+              "week": 16,
+              "date": "2025-12-21",
+              "opp": "Panthers",
+              "han": "A",
+              "triggers": [
+                "P1",
+                "N6"
+              ],
+              "net": 0
+            },
+            {
+              "week": 17,
+              "date": "2025-12-28",
+              "opp": "Dolphins",
+              "han": "A",
+              "triggers": [
+                "N6"
+              ],
+              "net": -1
+            }
+          ]
+        }
+      }
+    },
+    "Titans": {
+      "totals": {
+        "pos": 3,
+        "neg": 5,
+        "net": -2,
+        "posGames": 3,
+        "negGames": 5
+      },
+      "byTrigger": {
+        "N7c": {
+          "count": 1,
+          "games": [
+            {
+              "week": 1,
+              "date": "2025-09-07",
+              "opp": "Broncos",
+              "han": "A",
+              "triggers": [
+                "N7c"
+              ],
+              "net": -1
+            }
+          ]
+        },
+        "N1": {
+          "count": 3,
+          "games": [
+            {
+              "week": 5,
+              "date": "2025-10-05",
+              "opp": "Cardinals",
+              "han": "A",
+              "triggers": [
+                "N1"
+              ],
+              "net": -1
+            },
+            {
+              "week": 9,
+              "date": "2025-11-02",
+              "opp": "Chargers",
+              "han": "H",
+              "triggers": [
+                "N1"
+              ],
+              "net": -1
+            },
+            {
+              "week": 15,
+              "date": "2025-12-14",
+              "opp": "49ers",
+              "han": "A",
+              "triggers": [
+                "N1"
+              ],
+              "net": -1
+            }
+          ]
+        },
+        "N4": {
+          "count": 1,
+          "games": [
+            {
+              "week": 6,
+              "date": "2025-10-12",
+              "opp": "Raiders",
+              "han": "A",
+              "triggers": [
+                "N4"
+              ],
+              "net": -1
+            }
+          ]
+        },
+        "P3": {
+          "count": 1,
+          "games": [
+            {
+              "week": 8,
+              "date": "2025-10-26",
+              "opp": "Colts",
+              "han": "A",
+              "triggers": [
+                "P3"
+              ],
+              "net": 1
+            }
+          ]
+        },
+        "P1": {
+          "count": 1,
+          "games": [
+            {
+              "week": 11,
+              "date": "2025-11-16",
+              "opp": "Texans",
+              "han": "H",
+              "triggers": [
+                "P1"
+              ],
+              "net": 1
+            }
+          ]
+        },
+        "P4": {
+          "count": 1,
+          "games": [
+            {
+              "week": 13,
+              "date": "2025-11-30",
+              "opp": "Jaguars",
+              "han": "H",
+              "triggers": [
+                "P4"
+              ],
+              "net": 1
+            }
+          ]
+        }
+      }
+    },
+    "Commanders": {
+      "totals": {
+        "pos": 4,
+        "neg": 9,
+        "net": -5,
+        "posGames": 3,
+        "negGames": 7
+      },
+      "byTrigger": {
+        "P1": {
+          "count": 2,
+          "games": [
+            {
+              "week": 3,
+              "date": "2025-09-21",
+              "opp": "Raiders",
+              "han": "H",
+              "triggers": [
+                "P1",
+                "P2"
+              ],
+              "net": 2
+            },
+            {
+              "week": 18,
+              "date": "2026-01-04",
+              "opp": "Eagles",
+              "han": "A",
+              "triggers": [
+                "P1",
+                "N6"
+              ],
+              "net": 0
+            }
+          ]
+        },
+        "P2": {
+          "count": 2,
+          "games": [
+            {
+              "week": 3,
+              "date": "2025-09-21",
+              "opp": "Raiders",
+              "han": "H",
+              "triggers": [
+                "P1",
+                "P2"
+              ],
+              "net": 2
+            },
+            {
+              "week": 9,
+              "date": "2025-11-02",
+              "opp": "Seahawks",
+              "han": "H",
+              "triggers": [
+                "P2",
+                "N1"
+              ],
+              "net": 0
+            }
+          ]
+        },
+        "N2": {
+          "count": 1,
+          "games": [
+            {
+              "week": 5,
+              "date": "2025-10-05",
+              "opp": "Chargers",
+              "han": "A",
+              "triggers": [
+                "N2"
+              ],
+              "net": -1
+            }
+          ]
+        },
+        "N1": {
+          "count": 3,
+          "games": [
+            {
+              "week": 6,
+              "date": "2025-10-13",
+              "opp": "Bears",
+              "han": "H",
+              "triggers": [
+                "N1",
+                "N3"
+              ],
+              "net": -2
+            },
+            {
+              "week": 9,
+              "date": "2025-11-02",
+              "opp": "Seahawks",
+              "han": "H",
+              "triggers": [
+                "P2",
+                "N1"
+              ],
+              "net": 0
+            },
+            {
+              "week": 15,
+              "date": "2025-12-14",
+              "opp": "Giants",
+              "han": "A",
+              "triggers": [
+                "N1",
+                "N3"
+              ],
+              "net": -2
+            }
+          ]
+        },
+        "N3": {
+          "count": 3,
+          "games": [
+            {
+              "week": 6,
+              "date": "2025-10-13",
+              "opp": "Bears",
+              "han": "H",
+              "triggers": [
+                "N1",
+                "N3"
+              ],
+              "net": -2
+            },
+            {
+              "week": 8,
+              "date": "2025-10-27",
+              "opp": "Chiefs",
+              "han": "A",
+              "triggers": [
+                "N3"
+              ],
+              "net": -1
+            },
+            {
+              "week": 15,
+              "date": "2025-12-14",
+              "opp": "Giants",
+              "han": "A",
+              "triggers": [
+                "N1",
+                "N3"
+              ],
+              "net": -2
+            }
+          ]
+        },
+        "N6": {
+          "count": 2,
+          "games": [
+            {
+              "week": 17,
+              "date": "2025-12-25",
+              "opp": "Cowboys",
+              "han": "H",
+              "triggers": [
+                "N6"
+              ],
+              "net": -1
+            },
+            {
+              "week": 18,
+              "date": "2026-01-04",
+              "opp": "Eagles",
+              "han": "A",
+              "triggers": [
+                "P1",
+                "N6"
+              ],
+              "net": 0
+            }
+          ]
+        }
+      }
+    }
+  }
+}
