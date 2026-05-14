@@ -1,0 +1,511 @@
+<!doctype html>
+<html lang="en" data-theme="dark">
+<head>
+<meta charset="utf-8" />
+<title>The Favorite Skyline — Action Network</title>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Mona+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+<style>
+  /* ─── Design tokens (inlined — was external tokens.css) ─────────── */
+  :root,
+  [data-theme="dark"] {
+    --surface-background: #0e0f12;
+    --surface-foreground: #1a1c20;
+    --surface-inverted:  #f4f5f7;
+    --surface-brand:     #22a559;
+    --text-icons-primary:   #f4f5f7;
+    --text-icons-secondary: #a3a7af;
+    --text-icons-tertiary:  #6c7079;
+    --text-icons-inverted:  #0e0f12;
+    --text-icons-red:    #f4593f;
+    --text-icons-green:  #2dd36f;
+    --dividers-border:   #2a2d33;
+    --shadows-raised-1:  0 1px 3px rgba(0,0,0,0.45);
+  }
+  [data-theme="light"] {
+    --surface-background: #f6f7f8;
+    --surface-foreground: #ffffff;
+    --surface-inverted:  #1a1c20;
+    --surface-brand:     #1a9b4f;
+    --text-icons-primary:   #111317;
+    --text-icons-secondary: #52555d;
+    --text-icons-tertiary:  #8b8f98;
+    --text-icons-inverted:  #ffffff;
+    --text-icons-red:    #d63a22;
+    --text-icons-green:  #16a34a;
+    --dividers-border:   #e3e5e8;
+    --shadows-raised-1:  0 1px 3px rgba(0,0,0,0.08);
+  }
+  :root {
+    --space-4: 4px;   --space-8: 8px;   --space-12: 12px; --space-16: 16px;
+    --space-20: 20px; --space-24: 24px; --space-32: 32px; --space-48: 48px;
+    --space-64: 64px;
+    --height-32: 32px;
+    --radius-4: 4px; --radius-12: 12px; --radius-16: 16px; --radius-full: 999px;
+  }
+
+  *, *::before, *::after { box-sizing: border-box; }
+  html, body { margin: 0; padding: 0; }
+
+  body {
+    font-family: 'Mona Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+    background: var(--surface-background);
+    color: var(--text-icons-primary);
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+  }
+
+  .page {
+    max-width: 1360px;
+    margin: 0 auto;
+    padding: var(--space-48) var(--space-32) var(--space-64);
+  }
+
+  .theme-toggle {
+    position: fixed;
+    top: var(--space-20);
+    right: var(--space-20);
+    z-index: 10;
+    display: inline-flex;
+    align-items: center;
+    gap: var(--space-8);
+    height: var(--height-32);
+    padding: 0 var(--space-12);
+    border-radius: var(--radius-full);
+    background: var(--surface-foreground);
+    border: 1px solid var(--dividers-border);
+    color: var(--text-icons-secondary);
+    font: 500 11px/1 'Mona Sans', sans-serif;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    cursor: pointer;
+    box-shadow: var(--shadows-raised-1);
+  }
+  .theme-toggle:hover { color: var(--text-icons-primary); }
+  .theme-toggle svg { width: 14px; height: 14px; }
+
+  /* ─── Header ─────────────────────────────────────────── */
+  .head {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-12);
+    margin-bottom: var(--space-32);
+  }
+  .eyebrow {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: var(--space-12);
+    color: var(--text-icons-secondary);
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+  }
+  .eyebrow > span { white-space: nowrap; }
+  .eyebrow .dot {
+    width: 6px;
+    height: 6px;
+    border-radius: var(--radius-full);
+    background: var(--surface-brand);
+    flex-shrink: 0;
+  }
+  .eyebrow .sep {
+    width: 2px;
+    height: 2px;
+    border-radius: var(--radius-full);
+    background: var(--text-icons-tertiary);
+    flex-shrink: 0;
+  }
+  .titlerow {
+    display: flex;
+    align-items: baseline;
+    flex-wrap: wrap;
+    gap: var(--space-16) var(--space-20);
+  }
+  h1.title {
+    margin: 0;
+    font-size: 44px;
+    line-height: 1;
+    letter-spacing: -0.02em;
+    font-weight: 700;
+    color: var(--text-icons-primary);
+  }
+  .sub {
+    color: var(--text-icons-secondary);
+    font-size: 14px;
+    font-weight: 500;
+  }
+
+  /* ─── Chart ─────────────────────────────────────────── */
+  .chart-card {
+    background: var(--surface-foreground);
+    border: 1px solid var(--dividers-border);
+    border-radius: var(--radius-16);
+    box-shadow: var(--shadows-raised-1);
+    padding: var(--space-24) var(--space-20) var(--space-16);
+  }
+
+  .chart {
+    display: grid;
+    grid-template-columns: 32px 1fr;
+    gap: var(--space-8);
+  }
+
+  /* Y axis */
+  .y-axis {
+    position: relative;
+    height: 460px;
+  }
+  .y-axis .y-label {
+    position: absolute;
+    right: 0;
+    transform: translateY(50%);
+    font: 600 10px/1 'Mona Sans', sans-serif;
+    color: var(--text-icons-tertiary);
+    letter-spacing: 0.04em;
+    font-variant-numeric: tabular-nums;
+  }
+
+  /* Plot area */
+  .plot {
+    position: relative;
+    height: 460px;
+  }
+  .gridlines {
+    position: absolute;
+    inset: 0;
+    pointer-events: none;
+  }
+  .gridline {
+    position: absolute;
+    left: 0; right: 0;
+    border-top: 1px dashed var(--dividers-border);
+  }
+  .gridline.zero { border-top-style: solid; border-top-color: var(--dividers-border); }
+
+  .bars {
+    position: absolute;
+    inset: 0;
+    display: flex;
+    align-items: flex-end;
+    gap: 4px;
+    padding: 0 2px;
+  }
+  .bar-col {
+    flex: 1;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    position: relative;
+    cursor: default;
+  }
+  .bar-col .value {
+    font: 700 11px/1 'Mona Sans', sans-serif;
+    color: var(--text-icons-primary);
+    font-variant-numeric: tabular-nums;
+    margin-bottom: 4px;
+    letter-spacing: -0.01em;
+  }
+  .bar-col .bar {
+    width: 100%;
+    background: var(--c, var(--text-icons-tertiary));
+    border-radius: 3px 3px 0 0;
+    min-height: 2px;
+    transition: filter 120ms ease-out, transform 120ms ease-out;
+  }
+  .bar-col:hover .bar {
+    filter: brightness(1.12);
+  }
+  .bar-col .tip {
+    position: absolute;
+    bottom: calc(100% + 6px);
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 4px 8px;
+    border-radius: var(--radius-4);
+    background: var(--surface-inverted);
+    color: var(--text-icons-inverted);
+    font: 600 11px/1.2 'Mona Sans', sans-serif;
+    white-space: nowrap;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 120ms ease-out;
+    z-index: 2;
+  }
+  .bar-col:hover .tip { opacity: 1; }
+  .bar-col .tip strong { color: var(--text-icons-inverted); }
+  .bar-col .tip .sub { color: var(--text-icons-inverted); opacity: 0.7; margin-left: 4px; font-weight: 500; }
+
+  /* Logos row */
+  .logos-row {
+    display: flex;
+    gap: 4px;
+    padding: var(--space-8) 2px var(--space-4);
+    margin-left: calc(32px + var(--space-8));
+    border-top: 1px solid var(--dividers-border);
+  }
+  .logo-col {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 32px;
+  }
+  .logo-col img {
+    width: 26px;
+    height: 26px;
+    object-fit: contain;
+  }
+
+  /* Footer */
+  .footer {
+    margin-top: var(--space-16);
+    padding: 0 var(--space-4);
+    color: var(--text-icons-tertiary);
+    font: 500 11px/1.4 'Mona Sans', sans-serif;
+    letter-spacing: 0.04em;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: var(--space-8);
+  }
+
+  /* Legend strip — top/bottom callouts */
+  .callouts {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: var(--space-12);
+    margin-top: var(--space-24);
+  }
+  .callout {
+    display: flex;
+    align-items: center;
+    gap: var(--space-12);
+    padding: var(--space-12) var(--space-16);
+    background: var(--surface-foreground);
+    border: 1px solid var(--dividers-border);
+    border-radius: var(--radius-12);
+  }
+  .callout .lbl {
+    font: 600 10px/1 'Mona Sans', sans-serif;
+    color: var(--text-icons-tertiary);
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    margin-bottom: 4px;
+  }
+  .callout .team-row {
+    display: flex;
+    align-items: center;
+    gap: var(--space-8);
+  }
+  .callout .swatch {
+    width: 18px;
+    height: 18px;
+    border-radius: var(--radius-4);
+    background: var(--c);
+    flex-shrink: 0;
+  }
+  .callout img { width: 24px; height: 24px; object-fit: contain; }
+  .callout .who {
+    font: 700 16px/1 'Mona Sans', sans-serif;
+    color: var(--text-icons-primary);
+    letter-spacing: -0.01em;
+  }
+  .callout .v {
+    font: 700 22px/1 'Mona Sans', sans-serif;
+    color: var(--text-icons-primary);
+    font-variant-numeric: tabular-nums;
+    margin-left: auto;
+    letter-spacing: -0.015em;
+  }
+  .callout.bottom .v { color: var(--text-icons-red); }
+  .callout.top .v { color: var(--text-icons-green); }
+
+  @media (max-width: 900px) {
+    .page { padding: var(--space-32) var(--space-16) var(--space-48); }
+    h1.title { font-size: 28px; }
+    .callouts { grid-template-columns: 1fr; }
+    .bar-col .value { display: none; }
+    .logo-col img { width: 18px; height: 18px; }
+  }
+</style>
+</head>
+<body>
+
+  <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M6.34 17.66l-1.41 1.41M19.07 4.93l-1.41 1.41"/></svg>
+    <span id="themeLabel">Light</span>
+  </button>
+
+  <main class="page">
+
+    <header class="head">
+      <div class="eyebrow">
+        <span class="dot"></span>
+        <span>NFL</span>
+        <span class="sep"></span>
+        <span>Wins as the Favorite</span>
+        <span class="sep"></span>
+        <span>Since Sept 24, 2021</span>
+      </div>
+      <div class="titlerow">
+        <h1 class="title">The Favorite Skyline</h1>
+        <div class="sub">All 32 teams, ranked by wins SU as the favorite</div>
+      </div>
+    </header>
+
+    <section class="chart-card">
+      <div class="chart">
+        <div class="y-axis" id="yAxis"></div>
+        <div class="plot">
+          <div class="gridlines" id="gridlines"></div>
+          <div class="bars" id="bars"></div>
+        </div>
+      </div>
+
+      <div class="logos-row" id="logosRow"></div>
+    </section>
+
+    <div class="footer">
+      <span>Source: Action Network &middot; Regular-season &amp; playoff games &middot; Straight-up wins when listed as the closing favorite</span>
+      <span>n = 32 teams &middot; 4 seasons</span>
+    </div>
+
+    <div class="callouts" id="callouts"></div>
+
+  </main>
+
+<script>
+  // [abbr, full team name, wins, primary color]
+  const DATA = [
+    ['kc',  'Chiefs',     60, '#E31837'],
+    ['buf', 'Bills',      56, '#00338D'],
+    ['phi', 'Eagles',     55, '#004C54'],
+    ['sf',  '49ers',      50, '#AA0000'],
+    ['bal', 'Ravens',     46, '#241773'],
+    ['lar', 'Rams',       42, '#003594'],
+    ['cin', 'Bengals',    38, '#FB4F14'],
+    ['dal', 'Cowboys',    38, '#041E42'],
+    ['det', 'Lions',      37, '#0076B6'],
+    ['lac', 'Chargers',   37, '#0080C6'],
+    ['tb',  'Buccaneers', 37, '#D50A0A'],
+    ['min', 'Vikings',    36, '#4F2683'],
+    ['sea', 'Seahawks',   34, '#002244'],
+    ['gb',  'Packers',    34, '#203731'],
+    ['mia', 'Dolphins',   32, '#008E97'],
+    ['den', 'Broncos',    30, '#FB4F14'],
+    ['ne',  'Patriots',   28, '#002244'],
+    ['hou', 'Texans',     23, '#03202F'],
+    ['ind', 'Colts',      23, '#002C5F'],
+    ['atl', 'Falcons',    23, '#A71930'],
+    ['pit', 'Steelers',   21, '#101820'],
+    ['no',  'Saints',     21, '#D3BC8D'],
+    ['jax', 'Jaguars',    19, '#006778'],
+    ['was', 'Commanders', 18, '#5A1414'],
+    ['cle', 'Browns',     18, '#311D00'],
+    ['chi', 'Bears',      16, '#0B162A'],
+    ['lv',  'Raiders',    14, '#0B0B0B'],
+    ['ten', 'Titans',     12, '#0C2340'],
+    ['ari', 'Cardinals',  11, '#97233F'],
+    ['nyj', 'Jets',       10, '#125740'],
+    ['nyg', 'Giants',      5, '#0B2265'],
+    ['car', 'Panthers',    0, '#0085CA'],
+  ];
+
+  const MAX = 60;       // y-axis cap
+  const TICKS = [0, 10, 20, 30, 40, 50, 60];
+  const RESERVED_TOP_PX = 22;  // room for value label above tallest bar
+
+  // Y-axis labels + gridlines
+  const yAxis = document.getElementById('yAxis');
+  const gridlines = document.getElementById('gridlines');
+  TICKS.forEach(t => {
+    const pct = (t / MAX) * (1 - RESERVED_TOP_PX / 460) * 100; // factor in reserved top
+    const bottom = pct;
+    const yl = document.createElement('div');
+    yl.className = 'y-label';
+    yl.style.bottom = bottom + '%';
+    yl.textContent = t;
+    yAxis.appendChild(yl);
+
+    const gl = document.createElement('div');
+    gl.className = 'gridline' + (t === 0 ? ' zero' : '');
+    gl.style.bottom = bottom + '%';
+    gridlines.appendChild(gl);
+  });
+
+  // Bars + logos
+  const bars = document.getElementById('bars');
+  const logos = document.getElementById('logosRow');
+
+  DATA.forEach(([abbr, name, val, color]) => {
+    // bar height as % of plot height, scaled by reserved top
+    const heightPct = (val / MAX) * (1 - RESERVED_TOP_PX / 460) * 100;
+
+    const col = document.createElement('div');
+    col.className = 'bar-col';
+    col.style.setProperty('--c', color);
+    col.innerHTML = `
+      <span class="tip"><strong>${name}</strong><span class="sub">${val} wins</span></span>
+      <span class="value">${val}</span>
+      <span class="bar" style="height: ${heightPct}%;"></span>
+    `;
+    bars.appendChild(col);
+
+    const lc = document.createElement('div');
+    lc.className = 'logo-col';
+    lc.title = name;
+    lc.innerHTML = `<img src="https://a.espncdn.com/i/teamlogos/nfl/500/${abbr}.png" alt="${name}" />`;
+    logos.appendChild(lc);
+  });
+
+  // Callouts: leader, median, basement
+  const sorted = [...DATA].sort((a, b) => b[2] - a[2]);
+  const leader = sorted[0];
+  const middle = sorted[Math.floor(sorted.length / 2)];
+  const basement = sorted[sorted.length - 1];
+
+  const callouts = document.getElementById('callouts');
+  const items = [
+    { cls: 'top',    lbl: 'Leader',  data: leader },
+    { cls: '',       lbl: 'Median',  data: middle },
+    { cls: 'bottom', lbl: 'Basement', data: basement },
+  ];
+  items.forEach(({ cls, lbl, data }) => {
+    const [abbr, name, val, color] = data;
+    const el = document.createElement('div');
+    el.className = `callout ${cls}`;
+    el.innerHTML = `
+      <span class="swatch" style="--c: ${color}"></span>
+      <img src="https://a.espncdn.com/i/teamlogos/nfl/500/${abbr}.png" alt="${name}" />
+      <div>
+        <div class="lbl">${lbl}</div>
+        <div class="who">${name}</div>
+      </div>
+      <span class="v">${val}</span>
+    `;
+    callouts.appendChild(el);
+  });
+
+  // Theme toggle — localStorage wrapped in try/catch for sandboxed iframe safety
+  const root = document.documentElement;
+  const btn = document.getElementById('themeToggle');
+  const label = document.getElementById('themeLabel');
+  let saved = null;
+  try { saved = localStorage.getItem('an-theme'); } catch (e) {}
+  if (saved) root.dataset.theme = saved;
+  const updateLabel = () => label.textContent = root.dataset.theme === 'dark' ? 'Light' : 'Dark';
+  updateLabel();
+  btn.addEventListener('click', () => {
+    root.dataset.theme = root.dataset.theme === 'dark' ? 'light' : 'dark';
+    try { localStorage.setItem('an-theme', root.dataset.theme); } catch (e) {}
+    updateLabel();
+  });
+</script>
+</body>
+</html>
