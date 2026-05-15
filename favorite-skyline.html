@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en" data-theme="dark">
+<html lang="en" data-theme="light">
 <head>
 <meta charset="utf-8" />
 <title>The Favorite Skyline — Action Network</title>
@@ -25,29 +25,6 @@
     margin: 0 auto;
     padding: var(--space-48) var(--space-32) var(--space-64);
   }
-
-  .theme-toggle {
-    position: fixed;
-    top: var(--space-20);
-    right: var(--space-20);
-    z-index: 10;
-    display: inline-flex;
-    align-items: center;
-    gap: var(--space-8);
-    height: var(--height-32);
-    padding: 0 var(--space-12);
-    border-radius: var(--radius-full);
-    background: var(--surface-foreground);
-    border: 1px solid var(--dividers-border);
-    color: var(--text-icons-secondary);
-    font: 500 11px/1 'Mona Sans', sans-serif;
-    letter-spacing: 0.08em;
-    text-transform: uppercase;
-    cursor: pointer;
-    box-shadow: var(--shadows-raised-1);
-  }
-  .theme-toggle:hover { color: var(--text-icons-primary); }
-  .theme-toggle svg { width: 14px; height: 14px; }
 
   /* ─── Header ─────────────────────────────────────────── */
   .head {
@@ -301,7 +278,7 @@
 
   @media (max-width: 600px) {
     .page { padding: var(--space-24) var(--space-16) var(--space-32); }
-    .chart-card, .footer { display: none; }
+    .chart-card, .footer, .callouts { display: none; }
     .mobile-list {
       display: block;
       background: var(--surface-foreground);
@@ -367,11 +344,6 @@
 </style>
 </head>
 <body>
-
-  <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">
-    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M6.34 17.66l-1.41 1.41M19.07 4.93l-1.41 1.41"/></svg>
-    <span id="themeLabel">Light</span>
-  </button>
 
   <main class="page">
 
@@ -544,19 +516,6 @@
     callouts.appendChild(el);
   });
 
-  // Theme toggle
-  const root = document.documentElement;
-  const btn = document.getElementById('themeToggle');
-  const label = document.getElementById('themeLabel');
-  const saved = localStorage.getItem('an-theme');
-  if (saved) root.dataset.theme = saved;
-  const updateLabel = () => label.textContent = root.dataset.theme === 'dark' ? 'Light' : 'Dark';
-  updateLabel();
-  btn.addEventListener('click', () => {
-    root.dataset.theme = root.dataset.theme === 'dark' ? 'light' : 'dark';
-    localStorage.setItem('an-theme', root.dataset.theme);
-    updateLabel();
-  });
 </script>
 </body>
 </html>
