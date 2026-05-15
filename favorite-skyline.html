@@ -4,48 +4,11 @@
 <meta charset="utf-8" />
 <title>The Favorite Skyline — Action Network</title>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
+<link rel="stylesheet" href="tokens.css" />
 <link rel="preconnect" href="https://fonts.googleapis.com" />
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 <link href="https://fonts.googleapis.com/css2?family=Mona+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
 <style>
-  /* ─── Design tokens (inlined — was external tokens.css) ─────────── */
-  :root,
-  [data-theme="dark"] {
-    --surface-background: #0e0f12;
-    --surface-foreground: #1a1c20;
-    --surface-inverted:  #f4f5f7;
-    --surface-brand:     #22a559;
-    --text-icons-primary:   #f4f5f7;
-    --text-icons-secondary: #a3a7af;
-    --text-icons-tertiary:  #6c7079;
-    --text-icons-inverted:  #0e0f12;
-    --text-icons-red:    #f4593f;
-    --text-icons-green:  #2dd36f;
-    --dividers-border:   #2a2d33;
-    --shadows-raised-1:  0 1px 3px rgba(0,0,0,0.45);
-  }
-  [data-theme="light"] {
-    --surface-background: #f6f7f8;
-    --surface-foreground: #ffffff;
-    --surface-inverted:  #1a1c20;
-    --surface-brand:     #1a9b4f;
-    --text-icons-primary:   #111317;
-    --text-icons-secondary: #52555d;
-    --text-icons-tertiary:  #8b8f98;
-    --text-icons-inverted:  #ffffff;
-    --text-icons-red:    #d63a22;
-    --text-icons-green:  #16a34a;
-    --dividers-border:   #e3e5e8;
-    --shadows-raised-1:  0 1px 3px rgba(0,0,0,0.08);
-  }
-  :root {
-    --space-4: 4px;   --space-8: 8px;   --space-12: 12px; --space-16: 16px;
-    --space-20: 20px; --space-24: 24px; --space-32: 32px; --space-48: 48px;
-    --space-64: 64px;
-    --height-32: 32px;
-    --radius-4: 4px; --radius-12: 12px; --radius-16: 16px; --radius-full: 999px;
-  }
-
   *, *::before, *::after { box-sizing: border-box; }
   html, body { margin: 0; padding: 0; }
 
@@ -327,11 +290,79 @@
   .callout.top .v { color: var(--text-icons-green); }
 
   @media (max-width: 900px) {
-    .page { padding: var(--space-32) var(--space-16) var(--space-48); }
     h1.title { font-size: 28px; }
     .callouts { grid-template-columns: 1fr; }
     .bar-col .value { display: none; }
     .logo-col img { width: 18px; height: 18px; }
+  }
+
+  /* ─── Mobile list view (≤600px) ──────────────────────── */
+  .mobile-list { display: none; }
+
+  @media (max-width: 600px) {
+    .page { padding: var(--space-24) var(--space-16) var(--space-32); }
+    .chart-card, .footer { display: none; }
+    .mobile-list {
+      display: block;
+      background: var(--surface-foreground);
+      border: 1px solid var(--dividers-border);
+      border-radius: var(--radius-12);
+      overflow: hidden;
+    }
+    .mobile-row {
+      padding: 10px 14px;
+      border-bottom: 1px solid var(--dividers-border);
+    }
+    .mobile-row:last-child { border-bottom: none; }
+    .mobile-row-info {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+    .mobile-row .rank {
+      font: 600 11px/1 'Mona Sans', sans-serif;
+      color: var(--text-icons-tertiary);
+      font-variant-numeric: tabular-nums;
+      width: 20px;
+      flex-shrink: 0;
+    }
+    .mobile-row img {
+      width: 24px;
+      height: 24px;
+      object-fit: contain;
+      flex-shrink: 0;
+    }
+    .mobile-row .name {
+      font: 600 14px/1 'Mona Sans', sans-serif;
+      color: var(--text-icons-primary);
+      flex: 1;
+      letter-spacing: -0.01em;
+    }
+    .mobile-row .val {
+      font: 700 14px/1 'Mona Sans', sans-serif;
+      color: var(--text-icons-primary);
+      font-variant-numeric: tabular-nums;
+      letter-spacing: -0.01em;
+    }
+    .mobile-row .bar-track {
+      height: 4px;
+      background: var(--surface-background);
+      border-radius: 2px;
+      margin-top: 7px;
+      overflow: hidden;
+    }
+    .mobile-row .bar-fill {
+      height: 100%;
+      background: var(--c);
+      border-radius: 2px;
+    }
+    .mobile-footer {
+      margin-top: var(--space-12);
+      padding: 0 var(--space-4);
+      color: var(--text-icons-tertiary);
+      font: 500 11px/1.4 'Mona Sans', sans-serif;
+      letter-spacing: 0.04em;
+    }
   }
 </style>
 </head>
@@ -371,9 +402,13 @@
       <div class="logos-row" id="logosRow"></div>
     </section>
 
+    <section class="mobile-list" id="mobileList" aria-label="All 32 teams ranked"></section>
+
+    <p class="mobile-footer">Source: Action Network · 4 seasons of regular-season &amp; playoff games</p>
+
     <div class="footer">
-      <span>Source: Action Network &middot; Regular-season &amp; playoff games &middot; Straight-up wins when listed as the closing favorite</span>
-      <span>n = 32 teams &middot; 4 seasons</span>
+      <span>Source: Action Network · Regular-season &amp; playoff games · Straight-up wins when listed as the closing favorite</span>
+      <span>n = 32 teams · 4 seasons</span>
     </div>
 
     <div class="callouts" id="callouts"></div>
@@ -442,8 +477,9 @@
   // Bars + logos
   const bars = document.getElementById('bars');
   const logos = document.getElementById('logosRow');
+  const mobileList = document.getElementById('mobileList');
 
-  DATA.forEach(([abbr, name, val, color]) => {
+  DATA.forEach(([abbr, name, val, color], i) => {
     // bar height as % of plot height, scaled by reserved top
     const heightPct = (val / MAX) * (1 - RESERVED_TOP_PX / 460) * 100;
 
@@ -462,6 +498,22 @@
     lc.title = name;
     lc.innerHTML = `<img src="https://a.espncdn.com/i/teamlogos/nfl/500/${abbr}.png" alt="${name}" />`;
     logos.appendChild(lc);
+
+    // Mobile list row (only rendered visually on ≤600px viewports)
+    const widthPct = (val / MAX) * 100;
+    const row = document.createElement('div');
+    row.className = 'mobile-row';
+    row.style.setProperty('--c', color);
+    row.innerHTML = `
+      <div class="mobile-row-info">
+        <span class="rank">${i + 1}</span>
+        <img src="https://a.espncdn.com/i/teamlogos/nfl/500/${abbr}.png" alt="${name}" />
+        <span class="name">${name}</span>
+        <span class="val">${val}</span>
+      </div>
+      <div class="bar-track"><div class="bar-fill" style="width: ${widthPct}%;"></div></div>
+    `;
+    mobileList.appendChild(row);
   });
 
   // Callouts: leader, median, basement
@@ -492,18 +544,17 @@
     callouts.appendChild(el);
   });
 
-  // Theme toggle — localStorage wrapped in try/catch for sandboxed iframe safety
+  // Theme toggle
   const root = document.documentElement;
   const btn = document.getElementById('themeToggle');
   const label = document.getElementById('themeLabel');
-  let saved = null;
-  try { saved = localStorage.getItem('an-theme'); } catch (e) {}
+  const saved = localStorage.getItem('an-theme');
   if (saved) root.dataset.theme = saved;
   const updateLabel = () => label.textContent = root.dataset.theme === 'dark' ? 'Light' : 'Dark';
   updateLabel();
   btn.addEventListener('click', () => {
     root.dataset.theme = root.dataset.theme === 'dark' ? 'light' : 'dark';
-    try { localStorage.setItem('an-theme', root.dataset.theme); } catch (e) {}
+    localStorage.setItem('an-theme', root.dataset.theme);
     updateLabel();
   });
 </script>
