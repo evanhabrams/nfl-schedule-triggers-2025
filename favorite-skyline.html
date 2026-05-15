@@ -284,7 +284,10 @@
       background: var(--surface-foreground);
       border: 1px solid var(--dividers-border);
       border-radius: var(--radius-12);
-      overflow: hidden;
+      max-height: 575px;
+      overflow-x: hidden;
+      overflow-y: auto;
+      -webkit-overflow-scrolling: touch;
     }
     .mobile-row {
       padding: 10px 14px;
